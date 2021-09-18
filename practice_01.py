@@ -4,9 +4,7 @@ print('Hello world!')
 
 # Second task
 
-print('How are you?')
-print('This is my first practice')
-print('That\'s wonderful!')
+print('How are you?\nThis is my first practice\nThat\'s wonderful!)
 
 # Third task
 
