@@ -12,7 +12,6 @@ lenght = float(input('Write the length of the rectangle: '))
 width = float(input('Write the width of the rectangle: '))
 
 square = lenght * width
-
 print('Square = ' + str(square))
 
 # Fourth task
@@ -24,7 +23,6 @@ plus = first + second
 multiply = first * second
 minus = first - second
 divide = first / second
-
 print('Sum = ' + str(plus) + '; product = ' + str(multiply) + '; difference = ' + str(minus) + '; quotient = ' + str(divide))
 
 # Fifth task
@@ -36,7 +34,6 @@ radius = float(input('Write the radius of the circle: '))
 diameter = radius * 2
 circumference = diameter * math.pi
 area = radius ** 2 * math.pi
-
 print('Diameter = ' + str(diameter) + '; circumference = ' + str(circumference) + '; area = ' + str(area))
 
 # Sixth task
