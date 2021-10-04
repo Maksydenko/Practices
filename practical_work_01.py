@@ -1,4 +1,4 @@
-# Task 1. Construct these numeric values
+# Task 1: Construct these numeric values
 
 a = 0
 print(a)
@@ -84,3 +84,4 @@ else:
     third_digit = number % 10
     sum = first_digit + second_digit + third_digit
     print("The sum of the digits of a three-digit number: " + str(sum))
+    
