@@ -4,7 +4,7 @@
 
 ## [**Practice 1**](https://github.com/Maksydenko/Practices/blob/main/practice_01.py)
 
-<details><summary><b><i>Specifications</i></b></summary>
+<details><summary><b><i>📜 Specifications</i></b></summary>
 
 <b>Exercise 1.</b> Write a Python-script that displays the message “Hello world”.<br>
 <b>Exercise 2.</b> Rewrite the first script to display three any messages.<br>
@@ -16,7 +16,7 @@
 
 ## [**Practical work 1**](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
 
-<details><summary><b><i>Specifications</i></b></summary>
+<details><summary><b><i>📜 Specifications</i></b></summary>
 
 **Task 1. Construct these numeric values:**
 
@@ -48,7 +48,7 @@
 
 ## [**Laboratory work 3**](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
 
-<details><summary><b><i>Specifications</i></b></summary>
+<details><summary><b><i>📜 Specifications</i></b></summary>
 
 Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the% operator, the method str.format () and ‘f’ lines
 
