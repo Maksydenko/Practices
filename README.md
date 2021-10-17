@@ -2,21 +2,22 @@
 
  <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
-## [**Practice 1**](https://github.com/Maksydenko/Practices/blob/main/practice_01.py)
+### [**Practice 1**](https://github.com/Maksydenko/Practices/blob/main/practice_01.py)
 
-<details><summary><b><i>📜 Specifications</i></b></summary>
+<details>
+<summary><b><i>📜 Specifications</i></b></summary>
 
 <b>Exercise 1.</b> Write a Python-script that displays the message “Hello world”.<br>
 <b>Exercise 2.</b> Rewrite the first script to display three any messages.<br>
 <b>Exercise 3.</b> Write a Python-script to reads values for the length and width of a rectangle and returns the area of the rectangle.<br>
 <b>Exercise 4.</b> Write a program that requests the user to enter two numbers and prints the sum, product, difference and quotient of the two numbers.<br>
 <b>Exercise 5.</b> Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements.
-
 </details>
 
-## [**Practical work 1**](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
+### [**Practical work 1**](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
 
-<details><summary><b><i>📜 Specifications</i></b></summary>
+<details>
+<summary><b><i>📜 Specifications</i></b></summary>
 
 **Task 1. Construct these numeric values:**
 
@@ -38,19 +39,18 @@
 * Construct a float from the integer 123.
 * Construct an integer from the float 12.345.
 
-
 **Task 3. Digits of a Number:**
 
 * Write a Python-script that detects the last 4 digits of a credit card.
 * Find the sum of the digits of a three-digit number.
-
 </details>
 
-## [**Laboratory work 3**](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
+### [**Laboratory work 3**](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
 
-<details><summary><b><i>📜 Specifications</i></b></summary>
+<details>
+<summary><b><i>📜 Specifications</i></b></summary>
 
-Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the% operator, the method str.format () and ‘f’ lines
+Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the% operator, the method str.format () and ‘f’ lines.
 
 <table border="1" cellspacing="0" cellpadding="0" width="604">
     <tr>
