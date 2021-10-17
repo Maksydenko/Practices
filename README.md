@@ -50,7 +50,7 @@
 <details>
 <summary><b><i>📜 Specifications</i></b></summary>
 
-Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the% operator, the method str.format () and ‘f’ lines.
+Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the % operator, the method str.format () and ‘f’ lines.
 
 <table border="1" cellspacing="0" cellpadding="0" width="604">
     <tr>
