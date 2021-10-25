@@ -14,6 +14,8 @@
 <b>Exercise 5.</b> Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements.
 </details>
 
+**⏰ Date:** 17.09.2021
+
 ### [**Practical work 1**](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
 
 <details>
@@ -44,6 +46,8 @@
 * Write a Python-script that detects the last 4 digits of a credit card
 * Find the sum of the digits of a three-digit number
 </details>
+
+**⏰ Date:** 10.04.2021
 
 ### [**Laboratory work 3**](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
 
@@ -136,6 +140,8 @@ String format method (): 10.010
 f-string: 10.010
 </details>
 
+**⏰ Date:** 11.10.2021
+
 ### [**Practical work 2**](https://github.com/Maksydenko/Practices/blob/main/practical_work_02.py)
 
 <details>
@@ -171,3 +177,5 @@ Assume that we specify two points in space by definint the x and y coordinate of
 * ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th)
 * ...whether the two points lie in the same quadrant
 </details>
+
+**⏰ Date:** 25.10.2021
