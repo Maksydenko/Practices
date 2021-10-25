@@ -138,8 +138,8 @@ f-string: 10.010
 
 ### [**Practical work 2**](https://github.com/Maksydenko/Practices/blob/main/practical_work_02.py)
 
-<details>
-<summary><b><i>📜 Specifications</i></b></summary>
+<!-- <details>
+<summary><b><i>📜 Specifications</i></b></summary> -->
 
 **Task 1:**
 
@@ -153,6 +153,7 @@ Assume that zero is a positive number. Write an expression that computes whether
 * ...x and y are both positive
 * ...x and y have the same sign (both are positive or both are negative)
 * ...x and y have different signs (one is positive and one is negative)
+
 Write an expression that computes whether...
 
 * ...all three names (x, y, and z) are bound to equal values
