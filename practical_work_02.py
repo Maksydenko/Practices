@@ -9,33 +9,40 @@ if x % 2 != 0:
 else:
     print("x is odd")
 
+
 if x % 20 == 0:
     print("x is a multiple of 20")
 else:
     print("x isn't a multiple of 20")
+
 
 if x and y >= 0:
     print("x and y are both positive")
 else:
     print("x and y aren't both positive")
 
+
 if x and y >= 0 or x and y < 0:
     print("x and y have the same sign")
 else:
     print("x and y haven't the same sign")
 
+
 if x >= 0 and y < 0 or x < 0 and y >= 0:
     print("x and y have different signs")
+
 
 if x == y and x == z:
     print("All three names are bound to equal values")
 else:
     print("All three names aren't bound to equal values")
 
+
 if x != y and x != z and y != z:
     print("All three names are bound to different values")
 else:
     print("All three names aren't bound to different values")
+
 
 if x == y and x != z or x == z and x != y or y == z and y != x:
     print("Two variables store the same value, but the third one is different")
