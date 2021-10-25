@@ -79,6 +79,7 @@ elif x1 > 0 > y1:
 else:
     print("The first point lies on the coordinate axes")
 
+
 if x1 and x2 and y1 and y2 > 0:
     print("The two points lie in the first quadrant")
 elif x1 and x2 < 0 < y1 and y2:
