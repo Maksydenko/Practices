@@ -27,5 +27,4 @@ print("Special string with '%': ", "%7.4f" % float_4,
 str_1 = input("Write the text: ")
 print(str_1[:2])
 
-bool_1 = 1 > 0
-print(bool_1)
+print(1 > 0)
