@@ -138,8 +138,8 @@ f-string: 10.010
 
 ### [**Practical work 2**](https://github.com/Maksydenko/Practices/blob/main/practical_work_02.py)
 
-<!-- <details>
-<summary><b><i>📜 Specifications</i></b></summary> -->
+<details>
+<summary><b><i>📜 Specifications</i></b></summary>
 
 **Task 1:**
 
