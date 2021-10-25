@@ -30,7 +30,8 @@ else:
 
 if x >= 0 and y < 0 or x < 0 and y >= 0:
     print("x and y have different signs")
-
+else:
+    print("x and y haven't different signs")
 
 if x == y and x == z:
     print("All three names are bound to equal values")
