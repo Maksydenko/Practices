@@ -50,12 +50,17 @@ print(s)
 # Task 2: Type Conversation
 
 a1 = str(123)
+
 b1 = int(a1)
+print(b1)
 
 c1 = float(a1)
+print(c1)
 
 d1 = 12.345
+
 e1 = int(d1)
+print(e1)
 
 # Task 3: Digits of a Number
 
