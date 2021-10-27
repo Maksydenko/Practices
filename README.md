@@ -66,71 +66,70 @@ Organize data input and format output of specified data types according to the o
 
 <table border="1" cellspacing="0" cellpadding="0" width="604">
     <tr>
-        </td>
         <td width="151" colspan="2" valign="top">
-        <p align="center"><b>Integers</b></p>
+            <p align="center"><b>Integers</b></p>
         </td>
         <td width="171" colspan="4" valign="top">
-        <p align="center"><b>Real numbers</b></p>
+            <p align="center"><b>Real numbers</b></p>
         </td>
         <td width="94" rowspan="3" valign="top">
-        <p align="center"><b>The number of characters in a line</b></p>
+            <p align="center"><b>The number of characters in a line</b></p>
         </td>
         <td width="122" rowspan="3" valign="top">
-        <p align="center"><b>The value of a logical object</b></p>
+            <p align="center"><b>The value of a logical object</b></p>
         </td>
     </tr>
     <tr>
         <td width="63" rowspan="2" valign="top">
-        <p align="center"><b>Number of number</b>s</p>
+            <p align="center"><b>Number of number</b>s</p>
         </td>
         <td width="87" rowspan="2" valign="top">
-        <p align="center"><b>The width of the number field</b></p>
+            <p align="center"><b>The width of the number field</b></p>
         </td>
         <td width="66" rowspan="2" valign="top">
-        <p align="center"><b>Number of numbers</b></p>
+            <p align="center"><b>Number of numbers</b></p>
         </td>
         <td width="38" rowspan="2" valign="top">
-        <p align="center"><b>Real floating point number (specified output field width</b>)</p>
+            <p align="center"><b>Real floating point number (specified output field width</b>)</p>
         </td>
         <td width="67" colspan="2" valign="top">
-        <p align="center"><b>A real number with a fixed point</b></p>
+            <p align="center"><b>A real number with a fixed point</b></p>
         </td>
     </tr>
     <tr>
         <td width="28">
-        <p align="center"><b>Output field width</p>
+            <p align="center"><b>Output field width</p>
         </td>
         <td width="38">
-        <p align="center"><b>Number of positions after the point</p>
+            <p align="center"><b>Number of positions after the point</p>
         </td>
     </tr>
     <tr>
         <td width="63" valign="top">
-        <p align="center">2</p>
+            <p align="center">2</p>
         </td>
         <td width="87" valign="top">
-        <p align="center">5</p>
+            <p align="center">5</p>
         </td>
         <td width="66" valign="top">
-        <p align="center">4</p>
+            <p align="center">4</p>
         </td>
         <td width="38" valign="top">
-        <p align="center">8</p>
+            <p align="center">8</p>
         </td>
         <td width="28">
-        <p align="center">7</p>
+            <p align="center">7</p>
         </td>
         <td width="38">
-        <p align="center">4</p>
+            <p align="center">4</p>
         </td>
         <td width="94" valign="top">
-        <p align="center">2</p>
+            <p align="center">2</p>
         </td>
         <td width="122" valign="top">
-        <p align="center">True</p>
+            <p align="center">True</p>
         </td>
- </tr>
+    </tr>
 </table>
 
 **Addition. Example of format output:**
