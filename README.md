@@ -2,10 +2,14 @@
 
  <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
-### [**Practice 1**](https://github.com/Maksydenko/Practices/blob/main/practice_01.py)
+### **Practice 1**
+
+**📅 Date:** 17.09.2021
+
+**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practice_01.py)
 
 <details>
-<summary><b>📜 Specifications</b></summary>
+<summary><b>📋 Specifications</b></summary>
 
 <b>Exercise 1.</b> Write a Python-script that displays the message “Hello world”.<br>
 <b>Exercise 2.</b> Rewrite the first script to display three any messages.<br>
@@ -14,12 +18,14 @@
 <b>Exercise 5.</b> Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements.
 </details>
 
-**⏰ Date:** 17.09.2021
+### **Practical work 1**
 
-### [**Practical work 1**](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
+**📅 Date:** 10.04.2021
+
+**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
 
 <details>
-<summary><b>📜 Specifications</b></summary>
+<summary><b>📋 Specifications</b></summary>
 
 **Task 1. Construct these numeric values:**
 
@@ -47,12 +53,14 @@
 * Find the sum of the digits of a three-digit number
 </details>
 
-**⏰ Date:** 10.04.2021
+### **Laboratory work 3**
 
-### [**Laboratory work 3**](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
+**📅 Date:** 11.10.2021
+
+**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
 
 <details>
-<summary><b>📜 Specifications</b></summary>
+<summary><b>📋 Specifications</b></summary>
 
 Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the % operator, the method str.format () and ‘f’ lines.
 
@@ -126,6 +134,7 @@ Organize data input and format output of specified data types according to the o
 </table>
 
 **Addition. Example of format output:**
+
 ```Python
 x = float(input("x = "))
 ```
@@ -147,12 +156,14 @@ print("f-string:", f"{x: 5.3f}")
 f-string: 10.010
 </details>
 
-**⏰ Date:** 11.10.2021
+### **Practical work 2**
 
-### [**Practical work 2**](https://github.com/Maksydenko/Practices/blob/main/practical_work_02.py)
+**📅 Date:** 25.10.2021
+
+**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practical_work_02.py)
 
 <details>
-<summary><b>📜 Specifications</b></summary>
+<summary><b>📋 Specifications</b></summary>
 
 **Task 1:**
 
@@ -184,5 +195,3 @@ Assume that we specify two points in space by definint the x and y coordinate of
 * ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th)
 * ...whether the two points lie in the same quadrant
 </details>
-
-**⏰ Date:** 25.10.2021
