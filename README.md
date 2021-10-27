@@ -145,12 +145,12 @@ print("Special string with \"%\":", "%5.3f" % x)
 Special string with "%": 10.010
 
 ```Python
-print("String format() method:", "{0: 5.3f}".format(x))
+print("String format() method:", "{0:5.3f}".format(x))
 ```
 String format() method: 10.010
 
 ```Python
-print("f-string:", f"{x: 5.3f}")
+print("f-string:", f"{x:5.3f}")
 ```
 f-string: 10.010
 </details>
