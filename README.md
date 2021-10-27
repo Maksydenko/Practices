@@ -68,41 +68,41 @@ Organize data input and format output of specified data types according to the o
     <tr>
         </td>
         <td width="151" colspan="2" valign="top">
-        <p align="center">Integers</p>
+        <p align="center"><b>Integers</b></p>
         </td>
         <td width="171" colspan="4" valign="top">
-        <p align="center">Real numbers</p>
+        <p align="center"><b>Real numbers</b></p>
         </td>
         <td width="94" rowspan="3" valign="top">
-        <p align="center">The number of characters in a line</p>
+        <p align="center"><b>The number of characters in a line</b></p>
         </td>
         <td width="122" rowspan="3" valign="top">
-        <p align="center">The value of a logical object</p>
+        <p align="center"><b>The value of a logical object</b></p>
         </td>
     </tr>
     <tr>
         <td width="63" rowspan="2" valign="top">
-        <p align="center">Number of numbers</p>
+        <p align="center"><b>Number of number</b>s</p>
         </td>
         <td width="87" rowspan="2" valign="top">
-        <p align="center">The width of the number field</p>
+        <p align="center"><b>The width of the number field</b></p>
         </td>
         <td width="66" rowspan="2" valign="top">
-        <p align="center">Number of numbers</span></p>
+        <p align="center"><b>Number of numbers</b></p>
         </td>
         <td width="38" rowspan="2" valign="top">
-        <p align="center">Real floating point number (specified output field width)</p>
+        <p align="center"><b>Real floating point number (specified output field width</b>)</p>
         </td>
         <td width="67" colspan="2" valign="top">
-        <p align="center">A real number with a fixed point</p>
+        <p align="center"><b>A real number with a fixed point</b></p>
         </td>
     </tr>
     <tr>
         <td width="28">
-        <p align="center">Output field width</p>
+        <p align="center"><b>Output field width</p>
         </td>
         <td width="38">
-        <p align="center">Number of positions after the point</p>
+        <p align="center"><b>Number of positions after the point</p>
         </td>
     </tr>
     <tr>
