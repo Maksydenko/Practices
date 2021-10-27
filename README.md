@@ -20,7 +20,7 @@
 
 ### **Practical work 1**
 
-**📅 Date:** 10.04.2021
+**📅 Date:** 04.04.2021
 
 **📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
 
