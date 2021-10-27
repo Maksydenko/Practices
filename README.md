@@ -125,18 +125,25 @@ Organize data input and format output of specified data types according to the o
  </tr>
 </table>
 
-**Addition. Example of format output**
-
-\>>> x = float (input ("x ="))<br>
+**Addition. Example of format output:**
+```Python
+x = float(input("x ="))
+```
 x = 10.01
 
-\>>> print ("Special string with \"% \ ":", "% 5.3f"% x)<br>
+```Python
+print("Special string with \"%\":", "%5.3f" % x)
+```
 Special string with "%": 10.010
 
-\>>> print ("String format method ():", "{0: 5.3f}". format (x))<br>
-String format method (): 10.010
+```Python
+print("String format() method:", "{0: 5.3f}".format(x))
+```
+String format() method: 10.010
 
-\>>> print ("f-string:", f "{x: 5.3f}")<br>
+```Python
+print("f-string:", f"{x: 5.3f}")
+```
 f-string: 10.010
 </details>
 
