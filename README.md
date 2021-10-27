@@ -127,7 +127,7 @@ Organize data input and format output of specified data types according to the o
 
 **Addition. Example of format output:**
 ```Python
-x = float(input("x ="))
+x = float(input("x = "))
 ```
 x = 10.01
 
