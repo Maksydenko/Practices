@@ -1,4 +1,4 @@
-# **Practical and laboratory works from KROK University**
+# **KROK University. Practices and labs**
 
  <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
@@ -6,10 +6,10 @@
 
 **📅 Date:** 17.09.2021
 
-**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practice_01.py)
+**📁 Project:** [link](practice_01.py)
 
 <details>
-<summary><b>📋 Specifications:</b></summary>
+<summary><b>📋 Specification:</b></summary>
 
 <b>Exercise 1.</b> Write a Python-script that displays the message “Hello world”.<br>
 <b>Exercise 2.</b> Rewrite the first script to display three any messages.<br>
@@ -22,45 +22,45 @@
 
 **📅 Date:** 04.04.2021
 
-**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practical_work_01.py)
+**📁 Project:** [link](practical_work_01.py)
 
 <details>
-<summary><b>📋 Specifications:</b></summary>
+<summary><b>📋 Specification:</b></summary>
 
 **Task 1. Construct these numeric values:**
 
-* Integer zero
-* Floating point zero
-* Integer one hundred and one
-* Floating point one thousand
-* Floating point one thousand using scientific notation
-* Create a positive integer, a negative integer, and zero. Assign them to variables
-* Write several arithmetic expressions. Bind the values to variables. Use a variety of operators, e.g. +, -, /, *, etc. Use parentheses to control operator scope
-* Create several floats and assign them to variables
-* Write several arithmetic expressions containing your float variables
-* Write several expressions using mixed arithmetic (integers and floats)
-* Obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float
+* Integer zero;
+* Floating point zero;
+* Integer one hundred and one;
+* Floating point one thousand;
+* Floating point one thousand using scientific notation;
+* Create a positive integer, a negative integer, and zero. Assign them to variables;
+* Write several arithmetic expressions. Bind the values to variables. Use a variety of operators, e.g. +, -, /, *, etc. Use parentheses to control operator scope;
+* Create several floats and assign them to variables;
+* Write several arithmetic expressions containing your float variables;
+* Write several expressions using mixed arithmetic (integers and floats);
+* Obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float.
 
 **Task 2. Type Conversation:**
 
-* Construct an integer from the string "123"
-* Construct a float from the integer 123
-* Construct an integer from the float 12.345
+* Construct an integer from the string "123";
+* Construct a float from the integer 123;
+* Construct an integer from the float 12.345.
 
 **Task 3. Digits of a Number:**
 
-* Write a Python-script that detects the last 4 digits of a credit card
-* Find the sum of the digits of a three-digit number
+* Write a Python-script that detects the last 4 digits of a credit card;
+* Find the sum of the digits of a three-digit number.
 </details>
 
 ### **Laboratory work 3**
 
 **📅 Date:** 11.10.2021
 
-**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/laboratory_work_03.py)
+**📁 Project:** [link](laboratory_work_03.py)
 
 <details>
-<summary><b>📋 Specifications:</b></summary>
+<summary><b>📋 Specification:</b></summary>
 
 Organize data input and format output of specified data types according to the option number. In the table. for each option there are requirements for the amount, type and format of data. Organize the output of each object using the % operator, the method str.format () and ‘f’ lines.
 
@@ -159,38 +159,38 @@ f-string: 10.010
 
 **📅 Date:** 25.10.2021
 
-**📁 Project:** [link](https://github.com/Maksydenko/Practices/blob/main/practical_work_02.py)
+**📁 Project:** [link](practical_work_02.py)
 
 <details>
-<summary><b>📋 Specifications:</b></summary>
+<summary><b>📋 Specification:</b></summary>
 
 **Task 1:**
 
 Assume that we define x, y, and z to refer to int values. Write an expression that computes whether...
 
-* ...x is odd
-* ...x is a multiple of 20 (e.g., 20, 40, 60, ...)
+* ...x is odd;
+* ...x is a multiple of 20 (e.g., 20, 40, 60, ...).
 
 Assume that zero is a positive number. Write an expression that computes whether...
 
-* ...x and y are both positive
-* ...x and y have the same sign (both are positive or both are negative)
-* ...x and y have different signs (one is positive and one is negative)
+* ...x and y are both positive;
+* ...x and y have the same sign (both are positive or both are negative);
+* ...x and y have different signs (one is positive and one is negative).
 
 Write an expression that computes whether...
 
-* ...all three names (x, y, and z) are bound to equal values
-* ...all three names (x, y, and z) are bound to different values (none the same)
-* ...two variables store the same value, but the third one is different
+* ...all three names (x, y, and z) are bound to equal values;
+* ...all three names (x, y, and z) are bound to different values (none the same);
+* ...two variables store the same value, but the third one is different.
 
 **Task 2:**
 
 Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes...
 
-* ...the distance between these points
-* ...the slope of the line from the first point to the second
-* ...whether both points lie on the same line from the origin
-* ...whether the first point is above the second
-* ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th)
-* ...whether the two points lie in the same quadrant
+* ...the distance between these points;
+* ...the slope of the line from the first point to the second;
+* ...whether both points lie on the same line from the origin;
+* ...whether the first point is above the second;
+* ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
+* ...whether the two points lie in the same quadrant.
 </details>
