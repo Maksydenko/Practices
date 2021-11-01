@@ -25,6 +25,10 @@ print("Special string with \"%\":", "%7.4f" % float_4,
       "\nf-string:", f"{float_4:7.4f}")
 
 str_1 = input("Write the text: ")
-print(str_1[:2])
+print("Special string with \"%\":", "%0.2s" % str_1,
+      "\nThe string format() method:", "{0:0.2s}".format(str_1),
+      "\nf-string:", f"{str_1:0.2s}")
 
-print(1 > 0)
+print("Special string with \"%\":", "%s" % (True),
+      "\nThe string format() method:", "{}".format(True),
+      "\nf-string:", f"{True:}")
