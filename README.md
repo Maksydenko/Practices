@@ -1,6 +1,6 @@
 # **KROK University**
 
-<img src="https://www.krok.edu.ua/images/logo/logo.png">
+<img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
 ### **Practice 1**
 
