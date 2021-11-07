@@ -31,4 +31,4 @@ print("Special string with \"%\":", "%0.2s" % str_1,
 
 print("Special string with \"%\":", "%s" % (True),
       "\nThe string format() method:", "{}".format(True),
-      "\nf-string:", f"{True:}")
+      "\nf-string:", f"{True}")
