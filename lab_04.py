@@ -46,12 +46,12 @@ print(f"Corner: {corner}")
 
 x = int(input("Write the number: "))
 
-if x % 2 != 0:
+if x % 2:
     print("The number is odd")
 else:
     print("The number is even")
 
-if x % 5 == 0 and x % 2 != 0:
+if x % 5 == 0 and x % 2:
     print("The number ends with the digit 5")
 else:
     print("The number doesn't end with the digit 5")
