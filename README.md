@@ -194,3 +194,53 @@ Assume that we specify two points in space by definint the x and y coordinate of
 * ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
 * ...whether the two points lie in the same quadrant.
 </details>
+
+### **Practice 3**
+
+**📅 Date:** 08.11.2021
+
+**📁 Project:** [link](practice_03.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+<ol>
+    <li>Write a Python program using loop structure to print numbers 1.2.3……9.</li>
+    <li>Write a Python program using loop structure to print numbers 9.8.7…..1.</li>
+    <li>Write a Python program to print on the screen odd numbers between 5..13.</li>
+    <li>Write a Python program to add all the numbers entered by a user until user enters 0.</li>
+    <li>Write a Python Program to reverse a number. For example, if user enters 123 as input then 321 is printed as output.</li>
+    <li>Write Python program to find and print factorial of a number.</li>
+</ol>
+</details>
+
+### **Lab 4**
+
+**📅 Date:** 08.11.2021
+
+**📁 Project:** [link](lab_04.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+<ol>
+    <li>Write a program that changes the values ​​of two integer variables a and b without use of additional variables.</li>
+    <li>Write a program that calculates and displays:
+        <ul>
+            <li>arithmetic mean of two integers a and b;</li>
+            <li>geometric mean of two integers a and b.</li>
+        </ul>
+    </li>
+    <li>Write a program that rearranges the digits of the three-digit number that is specified user in reverse order and displays a new number on the screen.</li>
+    <li>Write a program that determines the total number of hours of the day (variable hour) and the total number of minutes of the day (variable minute) that have passed before the current seconds of the day (variable second). For example, if second = 11111 (second = 3 * 3600 + 5 * 60 + 11), then hour = 3 and minute = 5.</li>
+    <li>Write a program that determines the value of the angle in degrees (variable corner) between clockwise at the beginning of the day and its state in hour hours, minutes minutes and second seconds (0 ≤ hour ≤ 11; 0 ≤ minute; second ≤ 59).</li>
+    <li>Write a program that determines whether a natural number entered by the user:
+        <ul>
+            <li>even;</li>
+            <li>ending in the number 5.</li>
+        </ul>
+    </li>
+    <li>Write a program that determines the value of an integer variable number - from 1 to 7, c depending on which day of the week (Monday to Sunday) is the day (whole variable day) of a low year, in which January 1 is Monday (1 ≤ day ≤ 365).</li>
+    <li>Given fractional numbers a, b, c (a! = 0). Find out if the equation <i>ax² + bx + c</i> has fractional roots.</li>
+</ol>
+</details>
