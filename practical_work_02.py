@@ -5,9 +5,9 @@ y = int(input("Write the value y: "))
 z = int(input("Write the value z: "))
 
 if x % 2 != 0:
-    print("x is even")
-else:
     print("x is odd")
+else:
+    print("x is even")
 
 
 if x % 20 == 0:
