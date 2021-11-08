@@ -4,16 +4,16 @@ x = int(input("Write the value x: "))
 y = int(input("Write the value y: "))
 z = int(input("Write the value z: "))
 
-if x % 2 != 0:
+if x % 2:
     print("x is odd")
 else:
     print("x is even")
 
 
-if x % 20 == 0:
-    print("x is a multiple of 20")
-else:
+if x % 20:
     print("x isn't a multiple of 20")
+else:
+    print("x is a multiple of 20")
 
 
 if x and y >= 0:
