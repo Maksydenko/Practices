@@ -244,3 +244,48 @@ Assume that we specify two points in space by definint the x and y coordinate of
     <li>Given fractional numbers a, b, c (a! = 0). Find out if the equation <i>ax² + bx + c</i> has fractional roots.</li>
 </ol>
 </details>
+
+### **Practice 4**
+
+**📅 Date:** 15.11.2021
+
+**📁 Project:** [link](practice_04.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+**Task 1:**
+
+Write a program that reads 4 numbers from the keyboard and displays most of them.
+
+**Task 2:**
+
+Determine the number of days in the year that the user enters. In a leap year - 366 days, while in a normal 365.
+
+**Task 3:**
+
+A triangle exists only when the sum of any two of its sides is greater than a third. Given: a, b, c are the sides of the assumed triangle. Write a program that will indicate whether such a triangle exists or not.
+
+**Task 4:**
+
+Display all numbers in the range of 1 to 100 multiples of 7.
+
+**Task 5:**
+
+Calculate using a cycle the factorial of the number n
+
+**Task 6:**
+
+Display an "hourglass" whose maximum width is read from the keyboard (odd number). In the example, the width is 5:
+
+<pre>
+*****
+ ***
+  *
+ ***
+*****
+</pre>
+
+**Task 7:**
+
+Use cycles to display all prime numbers from 1 to 100.
