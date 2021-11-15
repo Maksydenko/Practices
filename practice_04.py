@@ -57,14 +57,12 @@ print(f"Factorial n: {factorial}")
 
 width = int(input("Write an odd number: "))
 
-half = width // 2
-
 if width % 2:
-    for i in range(half):
-        sand = "*" * (width - (i * 2))
+    for i in range(width // 2):
+        sand = "*" * (width - i * 2)
         print(sand.center(width))
-    for i in range(half + 1):
-        sand = "*" * ((i * 2) + 1)
+    for i in range(width // 2 + 1):
+        sand = "*" * (i * 2 + 1)
         print(sand.center(width))
 else:
     print("You wrote an even number")
