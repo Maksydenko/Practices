@@ -63,8 +63,7 @@ if width % 2:
     for i in range(half):
         sand = "*" * (width - (i * 2))
         print(sand.center(width))
-    print("*".center(width))
-    for i in range(1, half + 1):
+    for i in range(half + 1):
         sand = "*" * ((i * 2) + 1)
         print(sand.center(width))
 else:
