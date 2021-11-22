@@ -11,11 +11,11 @@
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-<b>Exercise 1.</b> Write a Python-script that displays the message “Hello world”.<br>
-<b>Exercise 2.</b> Rewrite the first script to display three any messages.<br>
-<b>Exercise 3.</b> Write a Python-script to reads values for the length and width of a rectangle and returns the area of the rectangle.<br>
-<b>Exercise 4.</b> Write a program that requests the user to enter two numbers and prints the sum, product, difference and quotient of the two numbers.<br>
-<b>Exercise 5.</b> Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements.
+1. Write a Python-script that displays the message “Hello world”.<br>
+2. Rewrite the first script to display three any messages.<br>
+3. Write a Python-script to reads values for the length and width of a rectangle and returns the area of the rectangle.<br>
+4. Write a program that requests the user to enter two numbers and prints the sum, product, difference and quotient of the two numbers.<br>
+5. Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements.
 </details>
 
 ### **Practical work 1**
@@ -27,30 +27,27 @@
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-**Task 1. Construct these numeric values:**
+1. Construct these numeric values:
+   * Integer zero;
+   * Floating point zero;
+   * Integer one hundred and one;
+   * Floating point one thousand;
+   * Floating point one thousand using scientific notation;
+   * Create a positive integer, a negative integer, and zero. Assign them to variables;
+   * Write several arithmetic expressions. Bind the values to variables. Use a variety of operators, e.g. +, -, /, *, etc. Use parentheses to control operator scope;
+   * Create several floats and assign them to variables;
+   * Write several arithmetic expressions containing your float variables;
+   * Write several expressions using mixed arithmetic (integers and floats);
+   * Obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float.
 
-* Integer zero;
-* Floating point zero;
-* Integer one hundred and one;
-* Floating point one thousand;
-* Floating point one thousand using scientific notation;
-* Create a positive integer, a negative integer, and zero. Assign them to variables;
-* Write several arithmetic expressions. Bind the values to variables. Use a variety of operators, e.g. +, -, /, *, etc. Use parentheses to control operator scope;
-* Create several floats and assign them to variables;
-* Write several arithmetic expressions containing your float variables;
-* Write several expressions using mixed arithmetic (integers and floats);
-* Obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float.
+2. Type Conversation:
+   * Construct an integer from the string "123";
+   * Construct a float from the integer 123;
+   * Construct an integer from the float 12.345.
 
-**Task 2. Type Conversation:**
-
-* Construct an integer from the string "123";
-* Construct a float from the integer 123;
-* Construct an integer from the float 12.345.
-
-**Task 3. Digits of a Number:**
-
-* Write a Python-script that detects the last 4 digits of a credit card;
-* Find the sum of the digits of a three-digit number.
+3. Digits of a Number:
+   * Write a Python-script that detects the last 4 digits of a credit card;
+   * Find the sum of the digits of a three-digit number.
 </details>
 
 ### **Laboratory work 3**
@@ -164,35 +161,29 @@ print("f-string:", f"{x:5.3f}")
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-**Task 1:**
+1. 
+   * Assume that we define x, y, and z to refer to int values. Write an expression that computes whether...
+      * ...x is odd;
+      * ...x is a multiple of 20 (e.g., 20, 40, 60, ...).
 
-Assume that we define x, y, and z to refer to int values. Write an expression that computes whether...
+    * Assume that zero is a positive number. Write an expression that computes whether...
+      * ...x and y are both positive;
+      * ...x and y have the same sign (both are positive or both are negative);
+      * ...x and y have different signs (one is positive and one is negative).
 
-* ...x is odd;
-* ...x is a multiple of 20 (e.g., 20, 40, 60, ...).
+   * Write an expression that computes whether...
+     * ...all three names (x, y, and z) are bound to equal values;
+     * ...all three names (x, y, and z) are bound to different values (none the same);
+     * ...two variables store the same value, but the third one is different.
 
-Assume that zero is a positive number. Write an expression that computes whether...
-
-* ...x and y are both positive;
-* ...x and y have the same sign (both are positive or both are negative);
-* ...x and y have different signs (one is positive and one is negative).
-
-Write an expression that computes whether...
-
-* ...all three names (x, y, and z) are bound to equal values;
-* ...all three names (x, y, and z) are bound to different values (none the same);
-* ...two variables store the same value, but the third one is different.
-
-**Task 2:**
-
-Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes...
-
-* ...the distance between these points;
-* ...the slope of the line from the first point to the second;
-* ...whether both points lie on the same line from the origin;
-* ...whether the first point is above the second;
-* ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
-* ...whether the two points lie in the same quadrant.
+2. 
+   * Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes...
+     * ...the distance between these points;
+     * ...the slope of the line from the first point to the second;
+     * ...whether both points lie on the same line from the origin;
+     * ...whether the first point is above the second;
+     * ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
+     * ...whether the two points lie in the same quadrant.
 </details>
 
 ### **Practice 3**
@@ -204,14 +195,12 @@ Assume that we specify two points in space by definint the x and y coordinate of
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-<ol>
-    <li>Write a Python program using loop structure to print numbers 1.2.3……9.</li>
-    <li>Write a Python program using loop structure to print numbers 9.8.7…..1.</li>
-    <li>Write a Python program to print on the screen odd numbers between 5..13.</li>
-    <li>Write a Python program to add all the numbers entered by a user until user enters 0.</li>
-    <li>Write a Python Program to reverse a number. For example, if user enters 123 as input then 321 is printed as output.</li>
-    <li>Write Python program to find and print factorial of a number.</li>
-</ol>
+1. Write a Python program using loop structure to print numbers 1.2.3……9.
+2. Write a Python program using loop structure to print numbers 9.8.7…..1.
+3. Write a Python program to print on the screen odd numbers between 5..13.
+4. Write a Python program to add all the numbers entered by a user until user enters 0.
+5. Write a Python Program to reverse a number. For example, if user enters 123 as input then 321 is printed as output.
+6. Write Python program to find and print factorial of a number.
 </details>
 
 ### **Lab 4**
@@ -223,26 +212,25 @@ Assume that we specify two points in space by definint the x and y coordinate of
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-<ol>
-    <li>Write a program that changes the values ​​of two integer variables a and b without use of additional variables.</li>
-    <li>Write a program that calculates and displays:
-        <ul>
-            <li>arithmetic mean of two integers a and b;</li>
-            <li>geometric mean of two integers a and b.</li>
-        </ul>
-    </li>
-    <li>Write a program that rearranges the digits of the three-digit number that is specified user in reverse order and displays a new number on the screen.</li>
-    <li>Write a program that determines the total number of hours of the day (variable hour) and the total number of minutes of the day (variable minute) that have passed before the current seconds of the day (variable second). For example, if second = 11111 (second = 3 * 3600 + 5 * 60 + 11), then hour = 3 and minute = 5.</li>
-    <li>Write a program that determines the value of the angle in degrees (variable corner) between clockwise at the beginning of the day and its state in hour hours, minutes minutes and second seconds (0 ≤ hour ≤ 11; 0 ≤ minute; second ≤ 59).</li>
-    <li>Write a program that determines whether a natural number entered by the user:
-        <ul>
-            <li>even;</li>
-            <li>ending in the number 5.</li>
-        </ul>
-    </li>
-    <li>Write a program that determines the value of an integer variable number - from 1 to 7, c depending on which day of the week (Monday to Sunday) is the day (whole variable day) of a low year, in which January 1 is Monday (1 ≤ day ≤ 365).</li>
-    <li>Given fractional numbers a, b, c (a! = 0). Find out if the equation <i>ax² + bx + c</i> has fractional roots.</li>
-</ol>
+1. Write a program that changes the values ​​of two integer variables a and b without use of additional variables.
+
+2. Write a program that calculates and displays:
+    * arithmetic mean of two integers a and b;
+    * geometric mean of two integers a and b.
+
+3. Write a program that rearranges the digits of the three-digit number that is specified user in reverse order and displays a new number on the screen.
+
+4. Write a program that determines the total number of hours of the day (variable hour) and the total number of minutes of the day (variable minute) that have passed before the current seconds of the day (variable second). For example, if second = 11111 (second = 3 * 3600 + 5 * 60 + 11), then hour = 3 and minute = 5.
+
+5. Write a program that determines the value of the angle in degrees (variable corner) between clockwise at the beginning of the day and its state in hour hours, minutes minutes and second seconds (0 ≤ hour ≤ 11; 0 ≤ minute; second ≤ 59).
+
+6. Write a program that determines whether a natural number entered by the user: 
+    * even;
+    * ending in the number 5.
+
+7. Write a program that determines the value of an integer variable number - from 1 to 7, c depending on which day of the week (Monday to Sunday) is the day (whole variable day) of a low year, in which January 1 is Monday (1 ≤ day ≤ 365).
+
+8. Given fractional numbers a, b, c (a! = 0). Find out if the equation ax² + bx + c has fractional roots.
 </details>
 
 ### **Practice 4**
@@ -254,30 +242,17 @@ Assume that we specify two points in space by definint the x and y coordinate of
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-**Task 1:**
+1. Write a program that reads 4 numbers from the keyboard and displays most of them.
 
-Write a program that reads 4 numbers from the keyboard and displays most of them.
+2. Determine the number of days in the year that the user enters. In a leap year - 366 days, while in a normal 365.
 
-**Task 2:**
+3. A triangle exists only when the sum of any two of its sides is greater than a third. Given: a, b, c are the sides of the assumed triangle. Write a program that will indicate whether such a triangle exists or not.
 
-Determine the number of days in the year that the user enters. In a leap year - 366 days, while in a normal 365.
+4. Display all numbers in the range of 1 to 100 multiples of 7.
 
-**Task 3:**
+5. Calculate using a cycle the factorial of the number n
 
-A triangle exists only when the sum of any two of its sides is greater than a third. Given: a, b, c are the sides of the assumed triangle. Write a program that will indicate whether such a triangle exists or not.
-
-**Task 4:**
-
-Display all numbers in the range of 1 to 100 multiples of 7.
-
-**Task 5:**
-
-Calculate using a cycle the factorial of the number n
-
-**Task 6:**
-
-Display an "hourglass" whose maximum width is read from the keyboard (odd number). In the example, the width is 5:
-
+6. Display an "hourglass" whose maximum width is read from the keyboard (odd number). In the example, the width is 5:
 <pre>
 *****
  ***
@@ -286,9 +261,7 @@ Display an "hourglass" whose maximum width is read from the keyboard (odd number
 *****
 </pre>
 
-**Task 7:**
-
-Use cycles to display all prime numbers from 1 to 100.
+7. Use cycles to display all prime numbers from 1 to 100.
 </details>
 
 ### **Practice 5**
@@ -302,21 +275,30 @@ Use cycles to display all prime numbers from 1 to 100.
 
 1. Write a Python program to generate and print a list, where the values are square of numbers between 1 and 30 (both included).
 2. Write a Python program to display the examination schedule (extract the date from exam_st_date).
+
 <pre>exam_st_date = (11, 12, 2014)
-Sample Output: The examination will start from: 11 / 12 / 2014</pre>
+
+Sample Output:
+The examination will start from: 11 / 12 / 2014</pre>
+
 3. Write a Python program which accepts a sequence of commaseparated numbers from user and generate a list and a tuple with those numbers.
+
 <pre>Sample data: 3, 5, 7, 23
+
 Output:
 List: ["3", "5", "7", "23"]
 Tuple: ("3", "5", "7", "23")</pre>
+
 4. Write a Python function that takes two lists and returns True if they have at least one common member.
 5. Write a Python-script. There is a bus moving in the city, and it takes and drop some people in each bus stop. You are provided with a list (or array) of integer arrays (or tuples). Each integer array has two items which represent number of people get into bus (The first item) and number of people get off the bus (The second item) in a bus stop. Your task is to return number of people who are still in the bus after the last bus station (after the last array). Even though it is the last bus stop, the bus is not empty and some people are still in the bus, and they are probably sleeping there :D
-<pre>Example:
-<ul>
-<li>number([[10, 0], [3, 5], [5, 8]]) # Result is 5</li>
-<li>number([[3, 0], [9, 1], [4, 10], [12, 2], [6, 1], [7, 10]]) # Result is 17</li>
-<li>number([[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]) # Result is 21</li>
-</ul></pre>
+
+Example:
+
+<pre>
+number([[10, 0], [3, 5], [5, 8]]) # Result is 5
+number([[3, 0], [9, 1], [4, 10], [12, 2], [6, 1], [7, 10]]) # Result is 17
+number([[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]) # Result is 21
+</pre>
 </details>
 
 ### **Practice 6**
@@ -331,10 +313,21 @@ Tuple: ("3", "5", "7", "23")</pre>
 1. Write a Python program to calculate the length of a string.
 2. Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. If the string length is less than 2, return instead the empty string.
 <pre>Sample Strings:
-"w3resource" Expected Result : "w3ce"
-"w3" Expected Result : "w3w3"
-"w" Expected Result : Empty String</pre>
-3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself. Sample String : 'restart' Expected Result : 'resta\$t'.
+
+"w3resource"
+Expected Result: "w3ce"
+
+"w3"
+Expected Result: "w3w3"
+
+"w"
+Expected Result: Empty String</pre>
+
+3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself.
+
+<pre>Sample String : 'restart'
+Expected Result : 'resta\$t'</pre>
+
 4. Write a Python function to reverses a string if it's length is a multiple of 4.
 5. Write a Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically).
 <pre>Sample Words: red, white, black, red, green, black
