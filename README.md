@@ -301,8 +301,7 @@ Use cycles to display all prime numbers from 1 to 100.
 <summary><b>📋 Specification:</b></summary>
 
 1. Write a Python program to generate and print a list, where the values are square of numbers between 1 and 30 (both included).
-2. Write a Python program to display the examination schedule.<br>
-(extract the date from exam_st_date).
+2. Write a Python program to display the examination schedule (extract the date from exam_st_date).
 <pre>exam_st_date = (11, 12, 2014)
 Sample Output: The examination will start from: 11 / 12 / 2014</pre>
 3. Write a Python program which accepts a sequence of commaseparated numbers from user and generate a list and a tuple with those numbers.
@@ -311,7 +310,7 @@ Output:
 List: ["3", "5", "7", "23"]
 Tuple: ("3", "5", "7", "23")</pre>
 4. Write a Python function that takes two lists and returns True if they have at least one common member.
-5. Write a Python-script. There is a bus moving in the city, and it takes and drop some people in each bus stop. You are provided with a list (or array) of integer arrays (or tuples). Each integer array has two items which represent number of people get into bus (The first item) and number of people get off the bus (The second item) in a bus stop. Your task is to return number of people who are still in the bus after the last bus station (after the last array). Even though it is the last bus stop, the bus is not empty and some people are still in the bus, and they are probably sleeping there :D.
+5. Write a Python-script. There is a bus moving in the city, and it takes and drop some people in each bus stop. You are provided with a list (or array) of integer arrays (or tuples). Each integer array has two items which represent number of people get into bus (The first item) and number of people get off the bus (The second item) in a bus stop. Your task is to return number of people who are still in the bus after the last bus station (after the last array). Even though it is the last bus stop, the bus is not empty and some people are still in the bus, and they are probably sleeping there :D
 <pre>Example:
 <ul>
 <li>number([[10, 0], [3, 5], [5, 8]]) # Result is 5</li>
@@ -335,7 +334,7 @@ Tuple: ("3", "5", "7", "23")</pre>
 "w3resource" Expected Result : "w3ce"
 "w3" Expected Result : "w3w3"
 "w" Expected Result : Empty String</pre>
-3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself. Sample String : 'restart' Expected Result : 'resta\$t' 
+3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself. Sample String : 'restart' Expected Result : 'resta\$t'.
 4. Write a Python function to reverses a string if it's length is a multiple of 4.
 5. Write a Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically).
 <pre>Sample Words: red, white, black, red, green, black
