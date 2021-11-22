@@ -12,11 +12,7 @@ print(f"The examination will start from : {exam_st_date[0]} / {exam_st_date[1]} 
 # Task 3
 
 numbers = input("Write comma separated numbers: ")
-
-while "," in numbers:
-    numbers = numbers.replace(",", " ")
-
-numbers = numbers.split()
+numbers = numbers.split(", ")
 numbers_tuple = tuple(numbers)
 print(numbers, numbers_tuple)
 
