@@ -325,8 +325,8 @@ Expected Result: Empty String</pre>
 
 3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself.
 
-<pre>Sample String : 'restart'
-Expected Result : 'resta\$t'</pre>
+<pre>Sample String : "restart"
+Expected Result : "resta\$t"</pre>
 
 4. Write a Python function to reverses a string if it's length is a multiple of 4.
 5. Write a Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically).
