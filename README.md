@@ -129,7 +129,7 @@ Organize data input and format output of specified data types according to the o
     </tr>
 </table>
 
-**Addition. Example of format output:**
+Addition. Example of format output:
 
 ```python
 x = float(input("x = "))
