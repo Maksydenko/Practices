@@ -1,4 +1,4 @@
-# Task 1: Construct these numeric values
+# Task 1
 
 a = 0
 print(a)
@@ -47,7 +47,7 @@ print(r)
 s = float(f) / g
 print(s)
 
-# Task 2: Type Conversation
+# Task 2
 
 a1 = str(123)
 
@@ -62,31 +62,23 @@ d1 = 12.345
 e1 = int(d1)
 print(e1)
 
-# Task 3: Digits of a Number
+# Task 3
 
 card_number = int(input("Write your credit card number: "))
 
-if card_number > 9999999999999999:
-    print("The wrong card number is specified")
-elif card_number < 1000000000000000:
-    print("The wrong card number is specified")
+if 999999999999999 < card_number < 10000000000000000:
+    print(f"The last 4 digits of a credit card: {card_number // 1000 % 10}\
+{card_number // 100 % 10}{card_number // 10 % 10}{card_number % 10}")
 else:
-    digit_one = card_number // 1000 % 10
-    digit_two = card_number // 100 % 10
-    digit_three = card_number // 10 % 10
-    digit_four = card_number % 10
-    print("The last 4 digits of a credit card: " + str(digit_one) + str(digit_two) + str(digit_three) + str(digit_four))
-
+    print("The wrong card number is specified")
+    
 number = int(input("Write the three-digit number: "))
 
-if number > 999:
-    print("Your number isn't three-digit")
-elif number < 100:
-    print("Your number isn't three-digit")
+if 99 < number < 1000:
+    digit_1 = number // 100
+    digit_2 = number // 10 % 10
+    digit_3 = number % 10
+    print(f"The sum of the digits of a three-digit number: \
+{digit_1 + digit_2 + digit_3}")
 else:
-    first_digit = number // 100
-    second_digit = number // 10 % 10
-    third_digit = number % 10
-    sum = first_digit + second_digit + third_digit
-    print("The sum of the digits of a three-digit number: " + str(sum))
-    
+    print("Your number isn't three-digit")
