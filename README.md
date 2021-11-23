@@ -279,7 +279,7 @@ print("f-string:", f"{x:5.3f}")
 <pre>exam_st_date = (11, 12, 2014)
 
 Sample Output:
-The examination will start from: 11 / 12 / 2014</pre>
+The examination will start from: 11/12/2014</pre>
 
 3. Write a Python program which accepts a sequence of commaseparated numbers from user and generate a list and a tuple with those numbers.
 
