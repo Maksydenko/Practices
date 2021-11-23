@@ -1,20 +1,17 @@
+import math
+
 # Task 1
 
 a = float(input("Write the value of a: "))
 b = float(input("Write the value of b: "))
-
 a, b = b, a
 print(f"{a=}, {b=}")
 
 # Task 2
 
-import math
+print(f"Average: {(a + b) / 2}")
 
-average = (a + b) / 2
-print(f"Average: {average}")
-
-geometric_mean = math.sqrt(a * b)
-print(f"Geometric mean: {geometric_mean}")
+print(f"Geometric mean: {math.sqrt(a * b)}")
 
 # Task 3
 
@@ -25,16 +22,13 @@ while x > 0:
     y *= 10
     y += x % 10
     x = x // 10
-
 print(y)
 
 # Task 4
 
 second = int(input("Write seconds: "))
-
 hour = second // 3600
 minute = (second - hour * 3600) // 60
-
 print(f"Hours: {hour}; minutes: {minute}")
 
 # Task 5
@@ -77,12 +71,9 @@ else:
 
 # Task 8
 
-import math
-
 a = float(input("Write the fractional number a:"))
 b = float(input("Write the fractional number b:"))
 c = float(input("Write the fractional number c:"))
-
 discriminant = b ** 2 - 4 * a * c
 x1 = (-b + math.sqrt(discriminant)) / (2 * a)
 x2 = (-b * math.sqrt(discriminant)) / (2 * a)
