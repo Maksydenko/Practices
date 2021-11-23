@@ -44,13 +44,11 @@ for i in range(1, 101):
 # Task 5
 
 n = int(input("Write the value n: "))
-
 factorial = 1
 
 while n > 1:
     factorial *= n
     n -= 1
-
 print(f"Factorial n: {factorial}")
 
 # Task 6
