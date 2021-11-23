@@ -6,7 +6,8 @@ for i in range(1, 31):
 # Task 2
 
 exam_st_date = (11, 12, 2014)
-print(f"The examination will start from: {exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}")
+print(f"The examination will start from: \
+{exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}")
 
 # Task 3
 
@@ -30,4 +31,5 @@ passengers = 0
 
 for i in number:
     passengers += i[0] - i[1]
-print(f"After all the stops, there are {passengers} passengers left on the bus")
+print(f"After all the stops, there are {passengers} \
+passengers left on the bus")
