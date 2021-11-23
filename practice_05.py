@@ -1,20 +1,17 @@
 # Task 1
 
 for i in range(1, 31):
-    i *= i
-    print(i)
+    print(i ** 2)
 
 # Task 2
 
 exam_st_date = (11, 12, 2014)
-print(f"The examination will start from: {exam_st_date[0]} / {exam_st_date[1]} / {exam_st_date[2]}")
+print(f"The examination will start from: {exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}")
 
 # Task 3
 
-numbers = input("Write comma separated numbers: ")
-numbers = numbers.split(", ")
-numbers_tuple = tuple(numbers)
-print(numbers, numbers_tuple)
+numbers = input("Write comma separated numbers: ").split(", ")
+print(f"List: {numbers}\nTuple: {tuple(numbers)}")
 
 # Task 4
 
