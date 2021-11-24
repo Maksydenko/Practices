@@ -2,6 +2,8 @@
 
 <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
+---
+
 ### **Practice 1**
 
 **📅 Date:** 17.09.2021
@@ -11,12 +13,14 @@
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-1. Write a Python-script that displays the message “Hello world”.<br>
-2. Rewrite the first script to display three any messages.<br>
-3. Write a Python-script to reads values for the length and width of a rectangle and returns the area of the rectangle.<br>
-4. Write a program that requests the user to enter two numbers and prints the sum, product, difference and quotient of the two numbers.<br>
+1. Write a Python-script that displays the message “Hello world”.
+2. Rewrite the first script to display three any messages.
+3. Write a Python-script to reads values for the length and width of a rectangle and returns the area of the rectangle.
+4. Write a program that requests the user to enter two numbers and prints the sum, product, difference and quotient of the two numbers.
 5. Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area. Use the constant value 3.14159 for π. Do these calculations in output statements.
 </details>
+
+---
 
 ### **Practical work 1**
 
@@ -28,6 +32,7 @@
 <summary><b>📋 Specification:</b></summary>
 
 1. Construct these numeric values:
+
    * Integer zero;
    * Floating point zero;
    * Integer one hundred and one;
@@ -41,14 +46,18 @@
    * Obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float.
 
 2. Type Conversation:
+
    * Construct an integer from the string "123";
    * Construct a float from the integer 123;
    * Construct an integer from the float 12.345.
 
 3. Digits of a Number:
+
    * Write a Python-script that detects the last 4 digits of a credit card;
    * Find the sum of the digits of a three-digit number.
 </details>
+
+---
 
 ### **Laboratory work 3**
 
@@ -134,23 +143,29 @@ Addition. Example of format output:
 ```python
 x = float(input("x = "))
 ```
-<pre>x = 10.01</pre>
+
+    x = 10.01
 
 ```python
 print("Special string with \"%\":", "%5.3f" % x)
 ```
-<pre>Special string with "%": 10.010</pre>
+
+    Special string with "%": 10.010
 
 ```python
 print("String format() method:", "{0:5.3f}".format(x))
 ```
-<pre>String format() method: 10.010</pre>
+
+    String format() method: 10.010
 
 ```python
 print("f-string:", f"{x:5.3f}")
 ```
-<pre>f-string: 10.010</pre>
+
+    f-string: 10.010
 </details>
+
+---
 
 ### **Practical work 2**
 
@@ -161,23 +176,25 @@ print("f-string:", f"{x:5.3f}")
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-1. 
-   * Assume that we define x, y, and z to refer to int values. Write an expression that computes whether...
+1. * Assume that we define x, y, and z to refer to int values. Write an expression that computes whether...
+
       * ...x is odd;
       * ...x is a multiple of 20 (e.g., 20, 40, 60, ...).
 
     * Assume that zero is a positive number. Write an expression that computes whether...
+
       * ...x and y are both positive;
       * ...x and y have the same sign (both are positive or both are negative);
       * ...x and y have different signs (one is positive and one is negative).
 
    * Write an expression that computes whether...
+
      * ...all three names (x, y, and z) are bound to equal values;
      * ...all three names (x, y, and z) are bound to different values (none the same);
      * ...two variables store the same value, but the third one is different.
 
-2. 
-   * Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes...
+2. * Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes...
+
      * ...the distance between these points;
      * ...the slope of the line from the first point to the second;
      * ...whether both points lie on the same line from the origin;
@@ -185,6 +202,8 @@ print("f-string:", f"{x:5.3f}")
      * ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
      * ...whether the two points lie in the same quadrant.
 </details>
+
+---
 
 ### **Practice 3**
 
@@ -203,6 +222,8 @@ print("f-string:", f"{x:5.3f}")
 6. Write Python program to find and print factorial of a number.
 </details>
 
+---
+
 ### **Lab 4**
 
 **📅 Date:** 08.11.2021
@@ -215,6 +236,7 @@ print("f-string:", f"{x:5.3f}")
 1. Write a program that changes the values ​​of two integer variables a and b without use of additional variables.
 
 2. Write a program that calculates and displays:
+
     * arithmetic mean of two integers a and b;
     * geometric mean of two integers a and b.
 
@@ -224,7 +246,8 @@ print("f-string:", f"{x:5.3f}")
 
 5. Write a program that determines the value of the angle in degrees (variable corner) between clockwise at the beginning of the day and its state in hour hours, minutes minutes and second seconds (0 ≤ hour ≤ 11; 0 ≤ minute; second ≤ 59).
 
-6. Write a program that determines whether a natural number entered by the user: 
+6. Write a program that determines whether a natural number entered by the user:
+
     * even;
     * ending in the number 5.
 
@@ -232,6 +255,8 @@ print("f-string:", f"{x:5.3f}")
 
 8. Given fractional numbers a, b, c (a! = 0). Find out if the equation ax² + bx + c has fractional roots.
 </details>
+
+---
 
 ### **Practice 4**
 
@@ -253,16 +278,17 @@ print("f-string:", f"{x:5.3f}")
 5. Calculate using a cycle the factorial of the number n
 
 6. Display an "hourglass" whose maximum width is read from the keyboard (odd number). In the example, the width is 5:
-<pre>
-*****
- ***
-  *
- ***
-*****
-</pre>
+
+        *****
+         ***
+          *
+         ***
+        *****
 
 7. Use cycles to display all prime numbers from 1 to 100.
 </details>
+
+---
 
 ### **Practice 5**
 
@@ -274,32 +300,34 @@ print("f-string:", f"{x:5.3f}")
 <summary><b>📋 Specification:</b></summary>
 
 1. Write a Python program to generate and print a list, where the values are square of numbers between 1 and 30 (both included).
+
 2. Write a Python program to display the examination schedule (extract the date from exam_st_date).
 
-<pre>exam_st_date = (11, 12, 2014)
+        exam_st_date = (11, 12, 2014)
 
-Sample Output:
-The examination will start from: 11/12/2014</pre>
+        Sample Output:
+        The examination will start from: 11/12/2014
 
 3. Write a Python program which accepts a sequence of commaseparated numbers from user and generate a list and a tuple with those numbers.
 
-<pre>Sample data: 3, 5, 7, 23
+        Sample data: 3, 5, 7, 23
 
-Output:
-List: ["3", "5", "7", "23"]
-Tuple: ("3", "5", "7", "23")</pre>
+        Output:
+        List: ["3", "5", "7", "23"]
+        Tuple: ("3", "5", "7", "23")
 
 4. Write a Python function that takes two lists and returns True if they have at least one common member.
+
 5. Write a Python-script. There is a bus moving in the city, and it takes and drop some people in each bus stop. You are provided with a list (or array) of integer arrays (or tuples). Each integer array has two items which represent number of people get into bus (The first item) and number of people get off the bus (The second item) in a bus stop. Your task is to return number of people who are still in the bus after the last bus station (after the last array). Even though it is the last bus stop, the bus is not empty and some people are still in the bus, and they are probably sleeping there :D
+    
+    Example:
 
-Example:
-
-<pre>
-number([[10, 0], [3, 5], [5, 8]]) # Result is 5
-number([[3, 0], [9, 1], [4, 10], [12, 2], [6, 1], [7, 10]]) # Result is 17
-number([[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]) # Result is 21
-</pre>
+        number([[10, 0], [3, 5], [5, 8]]) # Result is 5
+        number([[3, 0], [9, 1], [4, 10], [12, 2], [6, 1], [7, 10]]) # Result is 17
+        number([[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]) # Result is 21
 </details>
+
+---
 
 ### **Practice 6**
 
@@ -311,25 +339,29 @@ number([[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]) # Result is 21
 <summary><b>📋 Specification:</b></summary>
 
 1. Write a Python program to calculate the length of a string.
+
 2. Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. If the string length is less than 2, return instead the empty string.
-<pre>Sample Strings:
 
-"w3resource"
-Expected Result: "w3ce"
+        Sample Strings:
 
-"w3"
-Expected Result: "w3w3"
+        "w3resource"
+        Expected Result: "w3ce"
 
-"w"
-Expected Result: Empty String</pre>
+        "w3"
+        Expected Result: "w3w3"
+
+        "w"
+        Expected Result: Empty String
 
 3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself.
 
-<pre>Sample String : "restart"
-Expected Result : "resta\$t"</pre>
+        Sample String : "restart"
+        Expected Result : "resta\$t"
 
 4. Write a Python function to reverses a string if it's length is a multiple of 4.
+
 5. Write a Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically).
-<pre>Sample Words: red, white, black, red, green, black
-Expected Result: black, green, red, white, red</pre>
+
+        Sample Words: red, white, black, red, green, black
+        Expected Result: black, green, red, white, red
 </details>
