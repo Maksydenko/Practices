@@ -2,8 +2,6 @@
 
 <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
----
-
 ### **Practice 1**
 
 **📅 Date:** 17.09.2021
