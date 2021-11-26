@@ -26,9 +26,8 @@ if len(str_4) % 4:
 else:
     for i in range(-1, -1 * len(str_4) - 1, -1):
         print(str_4[i], end="")
-print()
 
 # Task 5
 
-words = sorted(input("Write comma separated some words: ").split(", "))
+words = sorted(input("\nWrite comma separated some words: ").split(", "))
 print(words)
