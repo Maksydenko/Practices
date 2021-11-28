@@ -425,11 +425,11 @@ print("f-string:", f"{x:5.3f}")
 
     The directions given to the man are, for example, the following (depending on the language):
 
-        ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
+        ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
 
     or
 
-        {"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"};
+        {"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"}
 
     or
 
