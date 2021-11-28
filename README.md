@@ -383,13 +383,13 @@ print("f-string:", f"{x:5.3f}")
 
     To check your implementation you can use strings from [here](https://en.wikipedia.org/wiki/Palindrome#Famous_palindromes).
 
-    The script has to ignore special characters, whitespaces and different cases
+    The script has to ignore special characters, whitespaces and different cases.
 
-3. Implement a script which works the same as str.split
+3. Implement a script which works the same as str.split.
 
     Note:
     
-    Usage of str.split method is prohibited
+    Usage of str.split method is prohibited.
 
 4. Implement a script which returns the longest word in the given string.
 
