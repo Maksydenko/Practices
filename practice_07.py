@@ -100,7 +100,8 @@ print(new_directions)
 
 # Task 8
 
-words = input("Write a comma-separated list of words from the game Shiritori: ").lower().split(", ")
+words = input("Write a comma-separated list of words \
+from the game Shiritori: ").lower().split(", ")
 shiritori = []
 
 for i in range(len(words)):
