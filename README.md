@@ -31,28 +31,28 @@
 
 1. Construct these numeric values:
 
-   * Integer zero;
-   * Floating point zero;
-   * Integer one hundred and one;
-   * Floating point one thousand;
-   * Floating point one thousand using scientific notation;
-   * Create a positive integer, a negative integer, and zero. Assign them to variables;
-   * Write several arithmetic expressions. Bind the values to variables. Use a variety of operators, e.g. +, -, /, *, etc. Use parentheses to control operator scope;
-   * Create several floats and assign them to variables;
-   * Write several arithmetic expressions containing your float variables;
-   * Write several expressions using mixed arithmetic (integers and floats);
-   * Obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float.
+   * integer zero;
+   * floating point zero;
+   * integer one hundred and one;
+   * floating point one thousand;
+   * floating point one thousand using scientific notation;
+   * create a positive integer, a negative integer, and zero. Assign them to variables;
+   * write several arithmetic expressions. Bind the values to variables. Use a variety of operators, e.g. +, -, /, *, etc. Use parentheses to control operator scope;
+   * create several floats and assign them to variables;
+   * write several arithmetic expressions containing your float variables;
+   * write several expressions using mixed arithmetic (integers and floats);
+   * obtain a float as a result of division of one integer by another; do so by explicitly converting one integer to a float.
 
 2. Type Conversation:
 
-   * Construct an integer from the string "123";
-   * Construct a float from the integer 123;
-   * Construct an integer from the float 12.345.
+   * construct an integer from the string "123";
+   * construct a float from the integer 123;
+   * construct an integer from the float 12.345.
 
 3. Digits of a Number:
 
-   * Write a Python-script that detects the last 4 digits of a credit card;
-   * Find the sum of the digits of a three-digit number.
+   * write a Python-script that detects the last 4 digits of a credit card;
+   * find the sum of the digits of a three-digit number.
 </details>
 
 ---
@@ -387,7 +387,9 @@ print("f-string:", f"{x:5.3f}")
 
 3. Implement a script which works the same as str.split
 
-    Note: Usage of str.split method is prohibited
+    Note:
+    
+    Usage of str.split method is prohibited
 
 4. Implement a script which returns the longest word in the given string.
 
@@ -447,11 +449,11 @@ print("f-string:", f"{x:5.3f}")
 
     Other examples:
 
-    In ["NORTH", "SOUTH", "EAST", "WEST"], the direction "NORTH" + "SOUTH" is going north and coming back right away.
+    * In ["NORTH", "SOUTH", "EAST", "WEST"], the direction "NORTH" + "SOUTH" is going north and coming back right away.
 
-    The path becomes ["EAST", "WEST"], now "EAST" and "WEST" annihilate each other, therefore, the final result is [] (nil in Clojure).
+    * The path becomes ["EAST", "WEST"], now "EAST" and "WEST" annihilate each other, therefore, the final result is [] (nil in Clojure).
 
-    In ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"], "NORTH" and "SOUTH" are not directly opposite but they become directly opposite after the reduction of "EAST" and "WEST" so the whole path is reducible to ["WEST", "WEST"].
+    * In ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"], "NORTH" and "SOUTH" are not directly opposite but they become directly opposite after the reduction of "EAST" and "WEST" so the whole path is reducible to ["WEST", "WEST"].
 
     Task:
 
@@ -465,7 +467,7 @@ print("f-string:", f"{x:5.3f}")
 
     For example:
     
-    apple -> eggs -> salmon -> nut -> turkey ...
+    apple -> eggs -> salmon -> nut -> turkey...
 
     Your Task:
 
