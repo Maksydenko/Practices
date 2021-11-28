@@ -174,24 +174,24 @@ print("f-string:", f"{x:5.3f}")
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-1. * Assume that we define x, y, and z to refer to int values. Write an expression that computes whether:
+1. Assume that we define x, y, and z to refer to int values. Write an expression that computes whether:
 
       * x is odd;
       * x is a multiple of 20 (e.g., 20, 40, 60, ...).
 
-    * Assume that zero is a positive number. Write an expression that computes whether:
+    Assume that zero is a positive number. Write an expression that computes whether:
 
       * x and y are both positive;
       * x and y have the same sign (both are positive or both are negative);
       * x and y have different signs (one is positive and one is negative).
 
-   * Write an expression that computes whether:
+    Write an expression that computes whether:
 
      * all three names (x, y, and z) are bound to equal values;
      * all three names (x, y, and z) are bound to different values (none the same);
      * two variables store the same value, but the third one is different.
 
-2. * Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes:
+2. Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes:
 
      * the distance between these points;
      * the slope of the line from the first point to the second;
