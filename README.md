@@ -174,31 +174,31 @@ print("f-string:", f"{x:5.3f}")
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-1. * Assume that we define x, y, and z to refer to int values. Write an expression that computes whether...
+1. * Assume that we define x, y, and z to refer to int values. Write an expression that computes whether:
 
-      * ...x is odd;
-      * ...x is a multiple of 20 (e.g., 20, 40, 60, ...).
+      * x is odd;
+      * x is a multiple of 20 (e.g., 20, 40, 60, ...).
 
-    * Assume that zero is a positive number. Write an expression that computes whether...
+    * Assume that zero is a positive number. Write an expression that computes whether:
 
-      * ...x and y are both positive;
-      * ...x and y have the same sign (both are positive or both are negative);
-      * ...x and y have different signs (one is positive and one is negative).
+      * x and y are both positive;
+      * x and y have the same sign (both are positive or both are negative);
+      * x and y have different signs (one is positive and one is negative).
 
-   * Write an expression that computes whether...
+   * Write an expression that computes whether:
 
-     * ...all three names (x, y, and z) are bound to equal values;
-     * ...all three names (x, y, and z) are bound to different values (none the same);
-     * ...two variables store the same value, but the third one is different.
+     * all three names (x, y, and z) are bound to equal values;
+     * all three names (x, y, and z) are bound to different values (none the same);
+     * two variables store the same value, but the third one is different.
 
-2. * Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes...
+2. * Assume that we specify two points in space by definint the x and y coordinate of each using x1, y1, x2, and y2 all which are float. Write an expression that computes:
 
-     * ...the distance between these points;
-     * ...the slope of the line from the first point to the second;
-     * ...whether both points lie on the same line from the origin;
-     * ...whether the first point is above the second;
-     * ...what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
-     * ...whether the two points lie in the same quadrant.
+     * the distance between these points;
+     * the slope of the line from the first point to the second;
+     * whether both points lie on the same line from the origin;
+     * whether the first point is above the second;
+     * what quadrant the first point lies in (1st, 2nd, 3rd, or 4th);
+     * whether the two points lie in the same quadrant.
 </details>
 
 ---
@@ -354,7 +354,7 @@ print("f-string:", f"{x:5.3f}")
 3. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to "$", except the first char itself.
 
         Sample String : "restart"
-        Expected Result : "resta\$t"
+        Expected Result : "resta$t"
 
 4. Write a Python function to reverses a string if it's length is a multiple of 4.
 
@@ -362,4 +362,130 @@ print("f-string:", f"{x:5.3f}")
 
         Sample Words: red, white, black, red, green, black
         Expected Result: black, green, red, white, red
+</details>
+
+---
+
+### **Practice 7**
+
+**📅 Date:** 28.11.2021
+
+**📁 Project:** [link](practice_07.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Implement a script which receives a string and replaces all " symbols with ' and vise versa. The script should return modified string.
+
+2. Write a script that checks whether a string is a palindrome or not.
+    
+    Returns "True" if it is palindrome, else "False".
+
+    To check your implementation you can use strings from [here](https://en.wikipedia.org/wiki/Palindrome#Famous_palindromes).
+
+    The script has to ignore special characters, whitespaces and different cases
+
+3. Implement a script which works the same as str.split
+
+    Note: Usage of str.split method is prohibited
+
+4. Implement a script which returns the longest word in the given string.
+
+    The word can contain any symbols except whitespaces (`,\n,\tand so on).
+
+    If there are multiple longest words in the string with a same length return the word that occurs first.
+
+5. For a positive integer n calculate the result value, which is equal to the sum of the odd numbers of n.
+
+    Example:
+
+        n = 1234
+        result = 4
+
+        n = 246
+        result = 0
+
+6. Create a script that for a positive integer n calculates the result value, which is equal to the sum of the “1” in the binary representation of n otherwise, returns None.
+
+    Example:
+
+        n = 14 = 1110
+        result = 3
+
+        n = 128 = 10000000
+        result = 1
+
+7. Once upon a time, on a way through the old wild mountainous west, a man was given directions to go from one point to another. The directions were "NORTH", "SOUTH", "WEST", "EAST". Clearly "NORTH" and "SOUTH" are opposite, "WEST" and "EAST" too.
+
+    Going to one direction and coming back the opposite direction right away is a needless effort. Since this is the wild west, with dreadfull weather and not much water, it's important to save yourself some energy, otherwise you might die of thirst!
+
+    How I crossed a mountainous desert the smart way.
+
+    The directions given to the man are, for example, the following (depending on the language):
+
+        ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
+
+    or
+
+        {"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"};
+
+    or
+
+        [North, South, South, East, West, North, West]
+
+    You can immediatly see that going "NORTH" and immediately "SOUTH" is not reasonable, better stay to the same place! So the task is to give to the man a simplified version of the plan. A better plan in this case is simply:
+
+        ["WEST"]
+
+    or
+
+        {"WEST"}
+
+    or
+
+        [West]
+
+    Other examples:
+
+    In ["NORTH", "SOUTH", "EAST", "WEST"], the direction "NORTH" + "SOUTH" is going north and coming back right away.
+
+    The path becomes ["EAST", "WEST"], now "EAST" and "WEST" annihilate each other, therefore, the final result is [] (nil in Clojure).
+
+    In ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"], "NORTH" and "SOUTH" are not directly opposite but they become directly opposite after the reduction of "EAST" and "WEST" so the whole path is reducible to ["WEST", "WEST"].
+
+    Task:
+
+    Write a script which will take an array of strings and returns an array of strings with the needless directions removed (W<->E or S<->N side by side).
+
+8. Background:
+
+    In Japan, a game called Shiritori is played. The rules are simple, a group of people take turns calling out a word whose beginning syllable is the same as the previous player's ending syllable. For example, the first person would say the word ねこ, and the second player must make a word that starts with こ, like　こむぎ. This repeats until a player can not think of a word fast enough or makes a word that ends in ん, because there are no words that begin with ん　in the Japanese language.
+
+    English Shiritori has the same principle, with the first and last letters of words. That being said the lose condition is saying a word that doesn't start with the previous word's last letter or not saying a word quick enough.
+
+    For example:
+    
+    apple -> eggs -> salmon -> nut -> turkey ...
+
+    Your Task:
+
+    You will be given a list of strings, a transcript of an English Shiritori match. Your task is to find out if the game ended early, and return a list that contains every valid string until the mistake. If a list is empty return an empty list. If one of the elements is an empty string, that is invalid and should be handled.
+
+    Examples:
+
+        All elements valid:
+        The array {"dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"}
+        Should return {"dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"}
+
+        An invalid element at index 2:
+        The array {"dog", "goose", "tiger", "cat", "elephant", "rhino", "orc"}
+        Should return ("dog", "goose") since goose ends in "e" and tiger starts with "t"
+
+        An invalid empty string at index 2:
+        The array {"ab", "bc", "", "cd"}
+        Should return ("ab", "bc")
+
+        All invalid empty string at index 0:
+        The array {"", "bc", "", "cd"}
+        Should return An Empty List
 </details>
