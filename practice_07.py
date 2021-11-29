@@ -3,13 +3,13 @@
 str_1 = input("Write something with quotes: ")
 str_2 = ""
 
-for i in range(len(str_1)):
-    if str_1[i] == "'":
+for i in str_1:
+    if i == "'":
         str_2 += '"'
-    elif str_1[i] == '"':
+    elif i == '"':
         str_2 += "'"
     else:
-        str_2 += str_1[i]
+        str_2 += i
 print(str_2)
 
 # Task 2
@@ -67,10 +67,7 @@ print(sum)
 directions = input("Write directions separated by commas \
 (NORTH, SOUTH, WEST, EAST): ").upper().split(", ")
 new_directions = []
-north = 0
-south = 0
-west = 0
-east = 0
+north, south, west, east = 0, 0, 0, 0
 
 for i in directions:
     if i == "NORTH":
