@@ -21,12 +21,12 @@ print(f"Square: {lenght * width}")
 first = float(input("Write the first number: "))
 second = float(input("Write the second number: "))
 print(f"Sum: {first + second}; product: {first * second}; \
-difference: {first - second}; \quotient: {first / second}")
+difference: {first - second}; quotient: {first / second}")
 
 # Task 5
 
 radius = float(input("Write the radius of the circle: "))
-print(f"Diameter: {radius * 2};circumference: {radius * 2 * math.pi}; \
+print(f"Diameter: {radius * 2}; circumference: {radius * 2 * math.pi}; \
 area: {radius ** 2 * math.pi}")
 
 # Task 6
@@ -37,9 +37,6 @@ if 99 < number < 1000:
     one = number // 100
     two = number // 10 % 10
     three = number % 10
-    sum = one + two + three
-    difference = one - two - three
-    product = one * two * three
     print(f"Sum: {one + two + three}; difference: {one - two - three}; \
 product: {one * two * three}")
 else:
