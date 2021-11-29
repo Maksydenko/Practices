@@ -1,17 +1,14 @@
 # Task 1
 
-for i in range(1, 10):
-    print(i)
+print([i for i in range(1, 10)])
 
 # Task 2
 
-for i in range(9, 0, -1):
-    print(i)
+print([i for i in range(9, 0, -1)])
 
 # Task 3
 
-for i in range(5, 14, 2):
-    print(i)
+print([i for i in range(5, 14, 2)])
 
 # Task 4
 
