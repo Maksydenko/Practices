@@ -108,6 +108,7 @@ for i in range(len(words)):
     if words[i] == "":
         break
     shiritori.append(words[i])
-    if words[i][-1] != words[i + 1][0]:
-        break
+    if i < len(words) - 1 and words[i + 1] != "":
+        if words[i][-1] != words[i + 1][0]:
+            break
 print(shiritori)
