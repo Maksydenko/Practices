@@ -496,7 +496,7 @@ print("f-string:", f"{x:5.3f}")
 
 ### **Lab 5**
 
-**📅 Date:** 29.11.2021
+**📅 Date:** 30.11.2021
 
 **📁 Project:** [link](lab_05.py)
 
