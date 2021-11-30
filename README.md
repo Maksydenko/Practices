@@ -467,7 +467,7 @@ print("f-string:", f"{x:5.3f}")
 
     For example:
     
-    apple -> eggs -> salmon -> nut -> turkey...
+    apple -> eggs -> salmon -> nut -> turkey ...
 
     Your Task:
 
@@ -490,4 +490,64 @@ print("f-string:", f"{x:5.3f}")
         All invalid empty string at index 0:
         The array {"", "bc", "", "cd"}
         Should return An Empty List
+</details>
+
+---
+
+### **Lab 5**
+
+**📅 Date:** 29.11.2021
+
+**📁 Project:** [link](lab_05.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+When performing tasks, use standard methods for working with strings. A sequence of numeric values is treated as a string. The reference to the index to the elements of the lines in the tasks of subparagraph b. is not used.
+
+<ol type="a">
+    <li>
+    The Fibonacci sequence is formed as follows: the first and second members of the sequence are 1, each subsequent is equal to the sum of the previous two (1, 1, 2, 3, 5, 8, 13, ...). Given a natural number n (n> = 3):
+        <ul>
+            <li>find the k-th member of the Fibonacci sequence;</li>
+            <li>get ​​the first n members of the Fibonacci sequence.</li>
+        </ul>
+    </li>
+    <li>
+    Program. This sequence contains from 2 to 20 words, each of which from 2 to 10 Latin letters; between adjacent words - at least one space, after the last word - a period. Display all words other than the last word, pre-arranging the words of the text in alphabetical order.
+    </li>
+    <li>
+    Two words are given. Display those letters of words that are only in one of them (including those that are repeated). For example, if the given words are processor and information, then the answer should be: r o.
+    </li>
+</ol>
+
+Addition. Glossary of laboratory work terms:
+
+A sequence is a way of organizing data (called sequence elements) in which the sequence can be either empty, and then it does not contain any elements, or non-empty. In the latter case, the sequence contains the first element. Moreover, for each element except the last, there is exactly one subsequent element. Thus, for each element of the sequence, except the first, there is exactly one previous element. In Python, the sequence element separator is the "," character. The sequence, unlike the set, may contain repeating elements. Examples: 0, 1, 0, 1, 0 and 1, 1, 1, 0, 1, 1, 1 - two sequences of zeros and ones; "A", "B", "A", "B", "A" - a sequence of letters; 121, 362, 1, 0, 548 - a sequence of integers.
+
+A subsequence of the sequence w is any sequence v for which there are sequences x, y such that w = xvy. The initial segment of the sequence w is any sequence v for which there is a sequence y such that w = vy.
+
+For example, 1, 0, 1; 0, 1, 0; 0; 1 and 1, 0, 1, 0, 0, 1 - (different) subsequences of the sequence 1, 0, 1, 0, 0, 1, and 1, 0, 1; 1 and 1, 0, 1, 0, 0, 1 are the initial segments of this sequence. An empty sequence is a subsequence and the initial segment of any sequence of elements of the corresponding type.
+
+A series is a sequence composed of matching elements. For example, 11111 is a series of units.
+
+Vector - a non-empty sequence of elements numbered by integers, starting from 0. Permutation of length n - a vector composed of pairs of different elements, each of which is an integer from the segment 0..n-1. For example, 3241 is a permutation of length 4.
+
+A matrix is ​​a vector whose elements are vectors.
+
+Text - a non-empty sequence of words separated by the characters "space", "comma" and "dot".
+
+A word is a non-empty sequence of letter-symbols.
+
+A sentence is a sequence of words separated by a space, with a closing dot.
+
+Subword - a non-empty subsequence of words.
+
+Word address - a word derived from the original word by writing its letters in reverse order. For example, 'ABCD' is a reference to the word "DCBA". A word is said to be symmetrical if it coincides with its address.
+
+The occurrence of the word (sequence) v in the word (sequence) w is any part of the word (sequence) w, which is a subword (subsequence) v of the word w. For example, the word 'KOLOKOL' contains two occurrences of the subword "KOL".
+
+A sequence of Fibonacci numbers is a sequence of natural numbers, the first two elements of which are equal to 1, and each subsequent one is the sum of the previous two:
+
+ 1, 1, 2, 3, 5, 8, 13, 21.
 </details>
