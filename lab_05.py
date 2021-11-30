@@ -18,15 +18,16 @@ while n > 0:
 
 # Task b
 
-sentence = input("Write a sentence of 2 to 20 words, in which all words are \
-written from 2 to 10 Latin letters, written with 1 or more spaces and a \
+sentence = input("Write the sentence of 2 to 20 words, in which all words are \
+written from 2 to 10 Latin letters, written with 1 or more spaces and the \
 period after the last word: ").replace("  ", " ").replace(".", "").split()
+*first_words, last_word = sentence
 words = []
 
 for i in sentence:
-    if len(i) > 10:
-        print("Your sentence contains a word longer than 10 characters")
-    if i == sentence[-1]:
+    if 2 > len(i) > 10:
+        print("There are words in your sentence that have less than 2 or more than 10")
+    if i == last_word:
         continue
     words.append(i)
 print(sorted(words))
