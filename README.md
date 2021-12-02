@@ -551,3 +551,26 @@ A sequence of Fibonacci numbers is a sequence of natural numbers, the first two 
 
  1, 1, 2, 3, 5, 8, 13, 21.
 </details>
+
+---
+
+### **Lab 6**
+
+**📅 Date:** 1.12.2021
+
+**📁 Project:** [link](lab_06.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+The tasks in point b) must be performed using the data types dict and list.
+
+<ol type="a">
+    <li>
+        Given the symbols - s1, s2, ... It is known that the symbol s1 is different from the space and that among s2, s3, ... there is at least one space. We consider s1, ... , sn - the characters preceding the first space (n is not known in advance). From the sequence s1, ... , sn form a set in which to delete all characters that are not letters or numbers, and replace each uppercase letter with the same lowercase.
+    </li>
+    <li>
+        The task. Determine the average grade point average in all subjects, and display information about students whose average score is more than 75b. Structure fields: Surname, Group, Physics, Algorithmization and programming, Higher Mathematics.
+    </li>
+</ol>
+</details>
