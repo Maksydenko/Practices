@@ -17,7 +17,7 @@ print(str_2)
 palindrome = input("Write something to check the palindrome: ")
 print(palindrome == palindrome[::-1])
 
-# Task 3
+# *Task 3
 
 str_3 = input("Write something: ")
 splitter = " "
@@ -54,10 +54,11 @@ if int(int_1) > 0:
 else:
     print("Your number isn't positive")
 
-# Task 6
+# *Task 6
 
 int_2 = str(bin(int(int_1)))[2:]
 sum = 0
+
 for i in int_2:
     sum += int(i)
 print(sum)
@@ -66,8 +67,8 @@ print(sum)
 
 directions = input("Write directions separated by commas \
 (NORTH, SOUTH, WEST, EAST): ").upper().split(", ")
+north = south = west = east = 0
 new_directions = []
-north, south, west, east = 0, 0, 0, 0
 
 for i in directions:
     if i == "NORTH":
