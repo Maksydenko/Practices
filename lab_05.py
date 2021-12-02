@@ -22,7 +22,7 @@ sentence = input("Write the sentence of 2 to 20 words, in which all words are \
 written from 2 to 10 Latin letters, written with 1 or more spaces and the \
 period after the last word: ").replace("  ", " ").replace(".", "").split()
 *first_words, last_word = sentence
-words = list()
+words = []
 
 for i in sentence:
     if 2 > len(i) > 10:
