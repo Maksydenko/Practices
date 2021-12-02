@@ -556,7 +556,7 @@ A sequence of Fibonacci numbers is a sequence of natural numbers, the first two 
 
 ### **Lab 6**
 
-**📅 Date:** 1.12.2021
+**📅 Date:** 02.12.2021
 
 **📁 Project:** [link](lab_06.py)
 
