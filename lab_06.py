@@ -4,10 +4,10 @@ import string
 
 n = list(input("Write any symbols, but the first symbol must not be a \
 space: ").lower())
-m = []
+m = list()
 
 for i in n:
-    if n[0] == " ":
+    if i[0] == " ":
         print("The first character must not be a space")
         break
     if i == " ":
@@ -28,4 +28,4 @@ while number > 0:
         new_data[data[0]] = data[1]
     number -= 1
 print("Students with an average grade of more than 75 points and their \
-groups", new_data)
+groups:", new_data)
