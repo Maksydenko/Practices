@@ -23,7 +23,7 @@ number = int(input("Write the number of students: "))
 new_data = dict()
 
 while number > 0:
-    data = input("W: ").split()
+    data = input("Write student data: ").split()
     if (int(data[2]) + int(data[3]) + int(data[4])) / 3 > 75:
         new_data[data[0]] = data[1]
     number -= 1
