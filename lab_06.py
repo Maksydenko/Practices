@@ -4,7 +4,7 @@ import string
 
 n = list(input("Write any symbols, but the first symbol must not be a \
 space: ").lower())
-m = list()
+m = []
 
 for i in n:
     if i[0] == " ":
@@ -23,7 +23,8 @@ number = int(input("Write the number of students: "))
 new_data = dict()
 
 while number > 0:
-    data = input("Write student data: ").split()
+    data = input("Write student data (structure fields: surname, group, \
+physics, algorithmization and programming, higher mathematics): ").split()
     if (int(data[2]) + int(data[3]) + int(data[4])) / 3 > 75:
         new_data[data[0]] = data[1]
     number -= 1
