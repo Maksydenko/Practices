@@ -19,7 +19,7 @@ while True:
     sum += x
     if x == 0:
         break
-print(f"Sum: {sum}")
+print("Sum:", sum)
 
 # Task 5
 
@@ -39,4 +39,4 @@ factorial = 1
 
 for i in range(1, number + 1):
     factorial *= number
-print(f"Factorial: {factorial}")
+print("Factorial:", factorial)
