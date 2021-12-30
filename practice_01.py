@@ -6,15 +6,13 @@ print("Hello world!")
 
 # Task 2
 
-print("How are you?\n\
-This is my first practice\n\
-That's wonderful!")
+print("How are you?\nThis is my first practice\nThat's wonderful!")
 
 # Task 3
 
 lenght = float(input("Write the length of the rectangle: "))
 width = float(input("Write the width of the rectangle: "))
-print(f"Square: {lenght * width}")
+print("Square:", lenght * width)
 
 # Task 4
 
