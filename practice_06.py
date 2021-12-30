@@ -1,7 +1,7 @@
 # Task 1
 
 str_1 = input("Write something to check the length: ")
-print(f"Your string length: {len(str_1)} characters")
+print("Your string length:", len(str_1), "characters")
 
 # Task 2
 
@@ -24,8 +24,8 @@ str_4 = input("Write something: ")
 if len(str_4) % 4:
     print("Your string length isn't a multiple of 4")
 else:
-    for i in range(-1, -len(str_4) - 1, -1):
-        print(str_4[i], end="")
+    for i in reversed(str_4):
+        print(i, end="")
 
 # Task 5
 
