@@ -15,34 +15,20 @@ print(d)
 e = float(1e3)
 print(e)
 
-f = 7
-print(f)
-g = -7
-print(g)
-h = 0
-print(h)
+f, g, h = 7, -7, 0
+print(f, g, h)
 
-j = 2 + (f - 6) / g * 9
-print(j)
-k = 5 ** h - (9 + f * -3)
-print(k)
+j, k = 2 + (f - 6) / g * 9, 5 ** h - (9 + f * -3)
+print(j, k)
 
-l = 3.2
-print(l)
-m = -11.15
-print(m)
-n = 14.6
-print(n)
+l, m, n = 3.2, -11.15, 14.6
+print(l, m, n)
 
-o = 19 - m + 14 ** 2
-print(o)
-p = 3 * n // (9 + l)
-print(p)
+o, p = 19 - m + 14 ** 2, 3 * n // (9 + l)
+print(o, p)
 
-q = (f + l) / 2 - h
-print(q)
-r = 9 + m - (g % 3) + n
-print(r)
+q, r = (f + l) / 2 - h, 9 + m - (g % 3) + n
+print(q, r)
 
 s = float(f) / g
 print(s)
@@ -50,15 +36,13 @@ print(s)
 # Task 2
 
 a1 = str(123)
-
 b1 = int(a1)
 print(b1)
 
-c1 = float(a1)
+c1 = float(b1)
 print(c1)
 
 d1 = 12.345
-
 e1 = int(d1)
 print(e1)
 
@@ -78,7 +62,7 @@ if 99 < number < 1000:
     digit_1 = number // 100
     digit_2 = number // 10 % 10
     digit_3 = number % 10
-    print(f"The sum of the digits of a three-digit number: \
-{digit_1 + digit_2 + digit_3}")
+    print("The sum of the digits of a three-digit number:", 
+digit_1 + digit_2 + digit_3)
 else:
     print("Your number isn't three-digit")
