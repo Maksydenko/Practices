@@ -6,13 +6,13 @@ c = float(input("Write the third number: "))
 d = float(input("Write the fourth number: "))
 
 if a > b and a > c and a > d:
-    print(f"{a} is the largest")
+    print(a, "is the largest")
 elif b > c and b > d:
-    print(f"{b} is the largest")
+    print(b, "is the largest")
 elif c > d:
-    print(f"{c} is the largest")
+    print(c, "is the largest")
 else:
-    print(f"{d} is the largest")
+    print(d, "is the largest")
 
 # Task 2
 
@@ -49,7 +49,7 @@ factorial = 1
 while n > 1:
     factorial *= n
     n -= 1
-print(f"Factorial n: {factorial}")
+print("Factorial n:", factorial)
 
 # Task 6
 
