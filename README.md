@@ -1,4 +1,4 @@
-# **KROK University**
+# **KROK University. Practices and labs**
 
 <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
@@ -6,7 +6,7 @@
 
 **📅 Date:** 17.09.2021
 
-**📁 Project:** [link](practice_01.py)
+**📁 Project:** [link](practice_0/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -24,7 +24,7 @@
 
 **📅 Date:** 04.04.2021
 
-**📁 Project:** [link](practical_work_01.py)
+**📁 Project:** [link](practice_1/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -61,7 +61,7 @@
 
 **📅 Date:** 11.10.2021
 
-**📁 Project:** [link](laboratory_work_03.py)
+**📁 Project:** [link](lab_3/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -169,7 +169,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 25.10.2021
 
-**📁 Project:** [link](practical_work_02.py)
+**📁 Project:** [link](practice_2/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -207,7 +207,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 08.11.2021
 
-**📁 Project:** [link](practice_03.py)
+**📁 Project:** [link](practice_3/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -226,7 +226,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 08.11.2021
 
-**📁 Project:** [link](lab_04.py)
+**📁 Project:** [link](lab_4/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -260,7 +260,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 15.11.2021
 
-**📁 Project:** [link](practice_04.py)
+**📁 Project:** [link](practice_4/maim.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -292,7 +292,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 22.11.2021
 
-**📁 Project:** [link](practice_05.py)
+**📁 Project:** [link](practice_5/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -331,7 +331,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 22.11.2021
 
-**📁 Project:** [link](practice_06.py)
+**📁 Project:** [link](practice_6/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -370,7 +370,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 28.11.2021
 
-**📁 Project:** [link](practice_07.py)
+**📁 Project:** [link](practice_7/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -498,7 +498,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 30.11.2021
 
-**📁 Project:** [link](lab_05.py)
+**📁 Project:** [link](lab_5/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -558,7 +558,7 @@ A sequence of Fibonacci numbers is a sequence of natural numbers, the first two 
 
 **📅 Date:** 02.12.2021
 
-**📁 Project:** [link](lab_06.py)
+**📁 Project:** [link](lab_6/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
