@@ -56,7 +56,7 @@ else:
 
 # *Task 6
 
-int_2 = str(bin(int(int_1)))[2:]
+int_2 = str(bin(int(input("Write an integer"))))[2:]
 sum = 0
 
 for i in int_2:
