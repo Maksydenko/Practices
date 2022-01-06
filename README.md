@@ -2,7 +2,7 @@
 
 <img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
 
-### **Practice 1**
+### **Practice 0**
 
 **📅 Date:** 17.09.2021
 
@@ -20,7 +20,7 @@
 
 ---
 
-### **Practical work 1**
+### **Practice 1**
 
 **📅 Date:** 04.04.2021
 
@@ -57,7 +57,7 @@
 
 ---
 
-### **Laboratory work 3**
+### **Lab 3**
 
 **📅 Date:** 11.10.2021
 
@@ -165,7 +165,7 @@ print("f-string:", f"{x:5.3f}")
 
 ---
 
-### **Practical work 2**
+### **Practice 2**
 
 **📅 Date:** 25.10.2021
 
@@ -260,7 +260,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 15.11.2021
 
-**📁 Project:** [link](practice_4/maim.py)
+**📁 Project:** [link](practice_4/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
