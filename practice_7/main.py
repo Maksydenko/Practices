@@ -17,7 +17,7 @@ print(str_2)
 palindrome = input("Write something to check the palindrome: ")
 print(palindrome == palindrome[::-1])
 
-# *Task 3
+# Task 3
 
 str_3 = input("Write something: ")
 splitter = " "
@@ -54,7 +54,7 @@ if int(int_1) > 0:
 else:
     print("Your number isn't positive")
 
-# *Task 6
+# Task 6
 
 int_2 = str(bin(int(input("Write an integer"))))[2:]
 sum = 0
