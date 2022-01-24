@@ -574,3 +574,20 @@ The tasks in point b) must be performed using the data types dict and list.
     </li>
 </ol>
 </details>
+
+---
+
+### **Practice 8**
+
+**📅 Date:** 24.01.2022
+
+**📁 Project:** [link](practice_8/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Enter five integer values ​​from the keyboard into the array. Print them in a single line through a comma. Get the arithmetic mean for the array.
+2. Enter five integer elements of the array X from the keyboard. Display the values ​​of the roots and squares of each of the elements of the array.
+3. Create an array of five last names and display them in a column, starting with the last.
+4. Create an array of five last names and display those that start with a specific letter that is entered from the keyboard.
+5. Create an array A [0 ... 7] using a random number generator and display it on the screen. Increase all its elements in 2 times.
