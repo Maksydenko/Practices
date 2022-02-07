@@ -593,6 +593,8 @@ The tasks in point b) must be performed using the data types dict and list.
 5. Create an array A [0 ... 7] using a random number generator and display it on the screen. Increase all its elements in 2 times.
 </details>
 
+---
+
 ### **Practice 9**
 
 **📅 Date:** 07.02.2022
