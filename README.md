@@ -591,3 +591,15 @@ The tasks in point b) must be performed using the data types dict and list.
 3. Create an array of five last names and display them in a column, starting with the last.
 4. Create an array of five last names and display those that start with a specific letter that is entered from the keyboard.
 5. Create an array A [0 ... 7] using a random number generator and display it on the screen. Increase all its elements in 2 times.
+</details>
+
+### **Practice 9**
+
+**📅 Date:** 07.02.2022
+
+**📁 Project:** [link](practice_9/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itself and the line numbers in which the number 5 occurs three or more times.
+</details>
