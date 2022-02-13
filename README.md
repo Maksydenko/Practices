@@ -605,3 +605,20 @@ The tasks in point b) must be performed using the data types dict and list.
 <summary><b>📋 Specification:</b></summary>
 Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itself and the line numbers in which the number 5 occurs three or more times.
 </details>
+
+---
+
+### **Lab 7**
+
+**📅 Date:** 14.02.2022
+
+**📁 Project:** [link](lab_7/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write a program to display the elements of a linear array on the screen (elements of the array are set in a short order) in reverse order.
+2. Write a program to display a transposed 3x3 matrix on the screen.
+3. Write a program that generates two square matrices 3x3 (it is necessary to check the size). Bring the results of multiple elements to a new matrix and display them on the screen.
+4. Write a program that changes all input elements to 0 in a 4x4 matrix.
+</details>
