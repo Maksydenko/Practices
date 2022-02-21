@@ -634,6 +634,6 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-1. Write the function addRightDigit (d, k), which should add to the positive integer K on the right the number D (D is an integer value in the range 0-9, K is an integer value).
+1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
 2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
