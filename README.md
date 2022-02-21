@@ -622,3 +622,18 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 3. Write a program that generates two square matrices 3x3 (it is necessary to check the size). Bring the results of multiple elements to a new matrix and display them on the screen.
 4. Write a program that changes all input elements to 0 in a 4x4 matrix.
 </details>
+
+---
+
+### **Practice 10**
+
+**📅 Date:** 21.02.2022
+
+**📁 Project:** [link](practice_10/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write the function addRightDigit (d, k), which should add to the positive integer K on the right the number D (D is an integer value in the range 0-9, K is an integer value).
+2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
+</details>
