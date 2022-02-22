@@ -1,8 +1,8 @@
-![krok_university](images/krok_university.png)
+![KROK University](images/krok_university.png)
 
 # **KROK University. Practices and labs**
 
-![krok_university](images/year_1.png)
+<img src="images/year_1.png" height="300" alt="Year 1">
 
 ### **Practice 0**
 
