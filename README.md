@@ -1,6 +1,8 @@
+![krok_university](images/krok_university.png)
+
 # **KROK University. Practices and labs**
 
-<img src="https://cabinet.krok.edu.ua:8443/img/logo.png">
+![krok_university](images/year_1.png)
 
 ### **Practice 0**
 
