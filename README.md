@@ -637,3 +637,25 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
 2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
+
+---
+
+### **Lab 8**
+
+**📅 Date:** 22.02.2022
+
+**📁 Project:** [link](lab_8/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+The task is to develop and implement algorithms for research for data, prepared for the additional function of modeling vipadkovy numbers and texts, prepared independently.
+
+For the skin algorithm, it is necessary to prepare tests that confirm the application of the program. For all the search algorithms, the listings of the search programs and the listings of the results are given (position numbers in the output array, depending on how the element is sorted or the fragment of the search; the number of ordering according to the skin algorithm of the search).
+
+The simplest algorithms for a joke:
+
+1. Line search.
+2. Binary search.
+3. Direct poshuk pіryadka.
+</details>
