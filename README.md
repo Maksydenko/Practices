@@ -1,8 +1,11 @@
-![KROK University](images/krok_university.png)
+# **Algorithmization and programming**
 
-# **KROK University. Practices and labs**
+<img src="images/python.png" height="250" alt="Python">
 
-<img src="images/year_1.png" height="350" alt="Year 1">
+## **Short annotation to the course:**
+## The aim of the course is to form the student's knowledge of the whole process of developing a computer program using Python programming language in an integrated PyCharm development environment.<br>The course considers the principles of imperative programming and basic techniques that allow you to create simple and sophisticated solutions of typical mathematical and informational tasks; the basics of the Python programming language and the possibilities of a modern integrated PyCharm development environment are studied; construction of basic algorithms of data processing is carried out; knowledge, skills and abilities of effective use of programming tools in the future professional activity are formed, and also bases of information culture and style of programming are laid.
+
+---
 
 ### **Practice 0**
 
