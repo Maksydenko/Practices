@@ -2,7 +2,7 @@
 
 # **KROK University. Practices and labs**
 
-<img src="images/year_1.png" height="300" alt="Year 1">
+<img src="images/year_1.png" height="350" alt="Year 1">
 
 ### **Practice 0**
 
