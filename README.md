@@ -3,6 +3,7 @@
 <img src="images/python.png" height="250" alt="Python">
 
 ## **Short annotation to the course:**
+
 ### The aim of the course is to form the student's knowledge of the whole process of developing a computer program using Python programming language in an integrated PyCharm development environment.<br>The course considers the principles of imperative programming and basic techniques that allow you to create simple and sophisticated solutions of typical mathematical and informational tasks; the basics of the Python programming language and the possibilities of a modern integrated PyCharm development environment are studied; construction of basic algorithms of data processing is carried out; knowledge, skills and abilities of effective use of programming tools in the future professional activity are formed, and also bases of information culture and style of programming are laid.
 
 ---
@@ -25,9 +26,11 @@
 
 ---
 
+## **Python data model**
+
 ### **Practice 1**
 
-**📅 Date:** 04.04.2021
+**📅 Date:** 04.10.2021
 
 **📁 Project:** [link](practice_1/main.py)
 
@@ -59,8 +62,6 @@
    * write a Python-script that detects the last 4 digits of a credit card;
    * find the sum of the digits of a three-digit number.
 </details>
-
----
 
 ### **Lab 3**
 
@@ -170,6 +171,8 @@ print("f-string:", f"{x:5.3f}")
 
 ---
 
+## **Expressions in Python**
+
 ### **Practice 2**
 
 **📅 Date:** 25.10.2021
@@ -208,24 +211,7 @@ print("f-string:", f"{x:5.3f}")
 
 ---
 
-### **Practice 3**
-
-**📅 Date:** 08.11.2021
-
-**📁 Project:** [link](practice_3/main.py)
-
-<details>
-<summary><b>📋 Specification:</b></summary>
-
-1. Write a Python program using loop structure to print numbers 1.2.3……9.
-2. Write a Python program using loop structure to print numbers 9.8.7…..1.
-3. Write a Python program to print on the screen odd numbers between 5..13.
-4. Write a Python program to add all the numbers entered by a user until user enters 0.
-5. Write a Python Program to reverse a number. For example, if user enters 123 as input then 321 is printed as output.
-6. Write Python program to find and print factorial of a number.
-</details>
-
----
+## **Instructions in Python**
 
 ### **Lab 4**
 
@@ -261,6 +247,29 @@ print("f-string:", f"{x:5.3f}")
 
 ---
 
+## **Execution Flow Management in Python - I**
+
+### **Practice 3**
+
+**📅 Date:** 08.11.2021
+
+**📁 Project:** [link](practice_3/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write a Python program using loop structure to print numbers 1.2.3……9.
+2. Write a Python program using loop structure to print numbers 9.8.7…..1.
+3. Write a Python program to print on the screen odd numbers between 5..13.
+4. Write a Python program to add all the numbers entered by a user until user enters 0.
+5. Write a Python Program to reverse a number. For example, if user enters 123 as input then 321 is printed as output.
+6. Write Python program to find and print factorial of a number.
+</details>
+
+---
+
+## **Execution Flow Management in Python - II**
+
 ### **Practice 4**
 
 **📅 Date:** 15.11.2021
@@ -292,6 +301,8 @@ print("f-string:", f"{x:5.3f}")
 </details>
 
 ---
+
+## **Basic sequences in Python - list, tuple, range**
 
 ### **Practice 5**
 
@@ -332,6 +343,8 @@ print("f-string:", f"{x:5.3f}")
 
 ---
 
+## **Strings in Python - I**
+
 ### **Practice 6**
 
 **📅 Date:** 22.11.2021
@@ -370,6 +383,8 @@ print("f-string:", f"{x:5.3f}")
 </details>
 
 ---
+
+## **Strings in Python - II**
 
 ### **Practice 7**
 
@@ -497,8 +512,6 @@ print("f-string:", f"{x:5.3f}")
         Should return An Empty List
 </details>
 
----
-
 ### **Lab 5**
 
 **📅 Date:** 30.11.2021
@@ -559,6 +572,8 @@ A sequence of Fibonacci numbers is a sequence of natural numbers, the first two 
 
 ---
 
+## **Sets in Python**
+
 ### **Lab 6**
 
 **📅 Date:** 02.12.2021
@@ -582,6 +597,8 @@ The tasks in point b) must be performed using the data types dict and list.
 
 ---
 
+## **Multidimensional arrays in Python**
+
 ### **Practice 8**
 
 **📅 Date:** 24.01.2022
@@ -597,21 +614,6 @@ The tasks in point b) must be performed using the data types dict and list.
 4. Create an array of five last names and display those that start with a specific letter that is entered from the keyboard.
 5. Create an array A [0 ... 7] using a random number generator and display it on the screen. Increase all its elements in 2 times.
 </details>
-
----
-
-### **Practice 9**
-
-**📅 Date:** 07.02.2022
-
-**📁 Project:** [link](practice_9/main.py)
-
-<details>
-<summary><b>📋 Specification:</b></summary>
-Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itself and the line numbers in which the number 5 occurs three or more times.
-</details>
-
----
 
 ### **Lab 7**
 
@@ -630,20 +632,18 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 
 ---
 
-### **Practice 10**
+## **Data search**
 
-**📅 Date:** 21.02.2022
+### **Practice 9**
 
-**📁 Project:** [link](practice_10/main.py)
+**📅 Date:** 07.02.2022
+
+**📁 Project:** [link](practice_9/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
-
-1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
-2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
+Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itself and the line numbers in which the number 5 occurs three or more times.
 </details>
-
----
 
 ### **Lab 8**
 
@@ -663,4 +663,21 @@ The simplest algorithms for a joke:
 1. Line search.
 2. Binary search.
 3. Direct poshuk pіryadka.
+</details>
+
+---
+
+## **Functions in Python**
+
+### **Practice 10**
+
+**📅 Date:** 21.02.2022
+
+**📁 Project:** [link](practice_10/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
+2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
