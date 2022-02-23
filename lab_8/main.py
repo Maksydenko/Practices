@@ -56,8 +56,9 @@ while j < len(pattern) and i < (len(text) - len(pattern)):
 
     while j < len(pattern) and pattern[j] == text[i + j]:
         j += 1
+
 if j == len(pattern):
     print("Substring found at position", i)
 else:
     print("Substring not found")
-print("Number of matches according to the skin algorithm:", i)
+print("Number of matches according to the skin algorithm:", i + j)
