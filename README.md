@@ -603,7 +603,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 24.01.2022
 
-**📁 Project:** [link](practice_8/main.py)
+**📁 Project:** [link](practice_08/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -619,7 +619,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 14.02.2022
 
-**📁 Project:** [link](lab_7/main.py)
+**📁 Project:** [link](lab_07/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -638,7 +638,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 07.02.2022
 
-**📁 Project:** [link](practice_9/main.py)
+**📁 Project:** [link](practice_09/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -649,7 +649,7 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 
 **📅 Date:** 22.02.2022
 
-**📁 Project:** [link](lab_8/main.py)
+**📁 Project:** [link](lab_08/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
