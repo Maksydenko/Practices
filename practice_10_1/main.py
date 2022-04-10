@@ -6,16 +6,15 @@ from random import randint
 # Task 1
 
 def sortArray(array):
-    if isinstance(len(array), int):
-        i = 0
-        flag = True
-        while flag:
-            flag = False
-            for j in range(len(array) - i - 1):
-                if array[j] > array[j + 1]:
-                    array[j], array[j + 1] = array[j + 1], array[j]
-                    flag = True
-        return array
+    i = 0
+    flag = True
+    while flag:
+        flag = False
+        for j in range(len(array) - i - 1):
+            if array[j] > array[j + 1]:
+                array[j], array[j + 1] = array[j + 1], array[j]
+                flag = True
+    return array
 number = int(input("Write the number of array elements: "))
 array = np.random.randint(-10, 10, number)
 print(sortArray(array), "\nMaximum is", sortArray(array)[-1], "in",
