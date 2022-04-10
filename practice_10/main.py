@@ -1,6 +1,5 @@
 import random
 
-
 # Task 1
 
 def addRightDigit(d=random.randint(0, 10), k=1000):
