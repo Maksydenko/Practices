@@ -714,5 +714,11 @@ The simplest algorithms for a joke:
 
 <details>
 <summary><b>📋 Specification:</b></summary>
-To form a function that will compute the factorial specified by the natural number user n.
+Realize Python's program in the list below. For each of the tasks, the algorithm is implemented using recursion and iteration. To argue the feasibility of choosing in each case of recursion or iteration (to use as criteria - the time of development and execution of programs, the amount of memory occupied, the readability of the program).
+
+1. To form a function that will compute the factorial specified by the natural number user n.
+
+2. To form a function to calculate the digital root of a natural number. The digital root is obtained as follows: It is necessary to compile all figures of a given number, then make up all figures of the amount found and repeat the process until the amount will be equal to the unambiguous number, which will be a digital root of a given number.
+
+3. Form a function to calculate the index of the maximum array of n * n, where 1 <= n <= 5.
 </details>
