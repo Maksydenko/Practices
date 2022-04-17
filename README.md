@@ -667,31 +667,13 @@ The simplest algorithms for a joke:
 
 ---
 
-## **Functions in Python**
-
-### **Practice 10**
-
-**📅 Date:** 21.02.2022
-
-**📁 Project:** [link](practice_10/main.py)
-
-<details>
-<summary><b>📋 Specification:</b></summary>
-
-1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
-2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
-</details>
-
-
----
-
 ## **Data sorting - I**
 
 ### **Practice 10**
 
 **📅 Date:** 10.04.2022
 
-**📁 Project:** [link](practice_10_1/main.py)
+**📁 Project:** [link](practice_10/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -701,4 +683,21 @@ The simplest algorithms for a joke:
    * the minimum element of the array.
 2. Given an array of 10 elements. Sort the first 4 in ascending order, the last 4 in descending order.
 3. Given an array of 20 integers on the segment [-2; 5]. Arrange the array by deleting the zeros with an offset to the left.
+</details>
+
+---
+
+## **Functions in Python**
+
+### **Practice 10**
+
+**📅 Date:** 21.02.2022
+
+**📁 Project:** [link](practice_10_01/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
+2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
