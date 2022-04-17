@@ -32,7 +32,6 @@ def sortHalf(array):
             if array[j] < array[min]:
                 min = j
         array[i], array[min] = array[min], array[i]
-
     for i in range(half_len, full_len - 1):
         min = i
         for j in range(i + 1, full_len):
