@@ -673,7 +673,7 @@ The simplest algorithms for a joke:
 
 **📅 Date:** 10.04.2022
 
-**📁 Project:** [link](practice_10/main.py)
+**📁 Project:** [link](practice_10_01/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -693,7 +693,7 @@ The simplest algorithms for a joke:
 
 **📅 Date:** 21.02.2022
 
-**📁 Project:** [link](practice_10_01/main.py)
+**📁 Project:** [link](practice_10/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
