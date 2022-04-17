@@ -1,7 +1,3 @@
-import numpy as np
-import random
-
-
 def myFac(n):
     if n < 0:
         return "You wrote the number less than zero"
