@@ -701,3 +701,18 @@ The simplest algorithms for a joke:
 1. Write the function addRightDigit (d, k), which should add to the positive integer k on the right the number d (d is an integer value in the range 0-9, k is an integer value).
 2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
+
+---
+
+## **Recursion**
+
+### **Practice 11**
+
+**📅 Date:** 17.04.2022
+
+**📁 Project:** [link](practice_11/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+To form a function that will compute the factorial specified by the natural number user n.
+</details>
