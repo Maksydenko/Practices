@@ -16,7 +16,18 @@ print(myFac(fac))
 
 # Task 2
 
-# def squareRoot(sqrt):
+def digitalRoot(num):
+    if 0 < num < 10:
+        return num
+    summ = 0
+    if num >= 10:
+        for i in str(num):
+            summ += int(i)
+        return digitalRoot(summ)
+    else:
+        return "You wrote the number less than zero"
+num = int(input("White the number: "))
+print(digitalRoot(num))
 
 
 # Task 3
