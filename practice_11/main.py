@@ -14,6 +14,7 @@ def myFac(fac):
 fac = int(input("Write the number: "))
 print(myFac(fac))
 
+
 # Task 2
 
 def digitalRoot(num):
@@ -32,25 +33,14 @@ print(digitalRoot(num))
 
 # Task 3
 
-def sortArray(array):
-    new_array = array.ravel()
-    old_array = []
-    for i in new_array:
-        old_array.append(i)
-    i = 0
-    flag = True
-    while flag:
-        flag = False
-        for j in range(len(new_array) - i - 1):
-            if new_array[j] > new_array[j + 1]:
-                new_array[j], new_array[j + 1] = new_array[j + 1], new_array[j]
-                flag = True
-    x = 0
-    for i in range(len(old_array)):
-        if old_array[i] == new_array[-1]:
-            x = i
-            break
-    return x
+def maxIndex(array, rand):
+    max, x, y = array[0, 0], 0, 0
+    for i in range(rand):
+        for j in range(rand):
+            if array[i, j] > max:
+                max, x, y = array[i, j], i, j
+    return x, y
 rand = random.randint(1, 5)
 array = np.random.randint(-50, 50, (rand, rand))
-print("Index maximum number:", sortArray(array))
+print(array)
+print("Index maximum number:", maxIndex(array, rand))
