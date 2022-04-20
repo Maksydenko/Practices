@@ -242,7 +242,7 @@ print("f-string:", f"{x:5.3f}")
 
 7. Write a program that determines the value of an integer variable number - from 1 to 7, c depending on which day of the week (Monday to Sunday) is the day (whole variable day) of a low year, in which January 1 is Monday (1 ≤ day ≤ 365).
 
-8. Given fractional numbers a, b, c (a! = 0). Find out if the equation ax² + bx + c has fractional roots.
+8. Given fractional numbers a, b, c (a != 0). Find out if the equation ax² + bx + c has fractional roots.
 </details>
 
 ---
@@ -258,9 +258,9 @@ print("f-string:", f"{x:5.3f}")
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-1. Write a Python program using loop structure to print numbers 1.2.3……9.
-2. Write a Python program using loop structure to print numbers 9.8.7…..1.
-3. Write a Python program to print on the screen odd numbers between 5..13.
+1. Write a Python program using loop structure to print numbers 1, 2, 3, ..., 9.
+2. Write a Python program using loop structure to print numbers 9, 8, 7, ..., 1.
+3. Write a Python program to print on the screen odd numbers between 5 ... 13.
 4. Write a Python program to add all the numbers entered by a user until user enters 0.
 5. Write a Python Program to reverse a number. For example, if user enters 123 as input then 321 is printed as output.
 6. Write Python program to find and print factorial of a number.
@@ -413,7 +413,7 @@ print("f-string:", f"{x:5.3f}")
 
 4. Implement a script which returns the longest word in the given string.
 
-    The word can contain any symbols except whitespaces (`,\n,\tand so on).
+    The word can contain any symbols except whitespaces (`, \n, \t and so on).
 
     If there are multiple longest words in the string with a same length return the word that occurs first.
 
@@ -525,7 +525,7 @@ When performing tasks, use standard methods for working with strings. A sequence
 
 <ol type="a">
     <li>
-    The Fibonacci sequence is formed as follows: the first and second members of the sequence are 1, each subsequent is equal to the sum of the previous two (1, 1, 2, 3, 5, 8, 13, ...). Given a natural number n (n> = 3):
+    The Fibonacci sequence is formed as follows: the first and second members of the sequence are 1, each subsequent is equal to the sum of the previous two (1, 1, 2, 3, 5, 8, 13, ...). Given a natural number n (n >= 3):
         <ul>
             <li>find the k-th member of the Fibonacci sequence;</li>
             <li>get ​​the first n members of the Fibonacci sequence.</li>
@@ -538,36 +538,6 @@ When performing tasks, use standard methods for working with strings. A sequence
     Two words are given. Display those letters of words that are only in one of them (including those that are repeated). For example, if the given words are processor and information, then the answer should be: r o.
     </li>
 </ol>
-
-Addition. Glossary of laboratory work terms:
-
-A sequence is a way of organizing data (called sequence elements) in which the sequence can be either empty, and then it does not contain any elements, or non-empty. In the latter case, the sequence contains the first element. Moreover, for each element except the last, there is exactly one subsequent element. Thus, for each element of the sequence, except the first, there is exactly one previous element. In Python, the sequence element separator is the "," character. The sequence, unlike the set, may contain repeating elements. Examples: 0, 1, 0, 1, 0 and 1, 1, 1, 0, 1, 1, 1 - two sequences of zeros and ones; "A", "B", "A", "B", "A" - a sequence of letters; 121, 362, 1, 0, 548 - a sequence of integers.
-
-A subsequence of the sequence w is any sequence v for which there are sequences x, y such that w = xvy. The initial segment of the sequence w is any sequence v for which there is a sequence y such that w = vy.
-
-For example, 1, 0, 1; 0, 1, 0; 0; 1 and 1, 0, 1, 0, 0, 1 - (different) subsequences of the sequence 1, 0, 1, 0, 0, 1, and 1, 0, 1; 1 and 1, 0, 1, 0, 0, 1 are the initial segments of this sequence. An empty sequence is a subsequence and the initial segment of any sequence of elements of the corresponding type.
-
-A series is a sequence composed of matching elements. For example, 11111 is a series of units.
-
-Vector - a non-empty sequence of elements numbered by integers, starting from 0. Permutation of length n - a vector composed of pairs of different elements, each of which is an integer from the segment 0..n-1. For example, 3241 is a permutation of length 4.
-
-A matrix is ​​a vector whose elements are vectors.
-
-Text - a non-empty sequence of words separated by the characters "space", "comma" and "dot".
-
-A word is a non-empty sequence of letter-symbols.
-
-A sentence is a sequence of words separated by a space, with a closing dot.
-
-Subword - a non-empty subsequence of words.
-
-Word address - a word derived from the original word by writing its letters in reverse order. For example, 'ABCD' is a reference to the word "DCBA". A word is said to be symmetrical if it coincides with its address.
-
-The occurrence of the word (sequence) v in the word (sequence) w is any part of the word (sequence) w, which is a subword (subsequence) v of the word w. For example, the word 'KOLOKOL' contains two occurrences of the subword "KOL".
-
-A sequence of Fibonacci numbers is a sequence of natural numbers, the first two elements of which are equal to 1, and each subsequent one is the sum of the previous two:
-
- 1, 1, 2, 3, 5, 8, 13, 21.
 </details>
 
 ---
@@ -612,7 +582,7 @@ The tasks in point b) must be performed using the data types dict and list.
 2. Enter five integer elements of the array X from the keyboard. Display the values ​​of the roots and squares of each of the elements of the array.
 3. Create an array of five last names and display them in a column, starting with the last.
 4. Create an array of five last names and display those that start with a specific letter that is entered from the keyboard.
-5. Create an array A [0 ... 7] using a random number generator and display it on the screen. Increase all its elements in 2 times.
+5. Create an array A[0 ... 7] using a random number generator and display it on the screen. Increase all its elements in 2 times.
 </details>
 
 ### **Lab 7**
