@@ -13,6 +13,7 @@ def sortArray(array):
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
                 flag = True
+        i += 1
     return array
 number = int(input("Write the number of array elements: "))
 array = np.random.randint(-10, 10, number)
