@@ -672,6 +672,22 @@ The simplest algorithms for a joke:
 2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
 
+### **Practice 10**
+
+**📅 Date:** 09.05.2022
+
+**📁 Project:** [link](lab_09/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write a function that returns the maximum value from the list of numbers.
+2. Implement a function whose parameters are two numbers and a string. It returns the concatenation of the string with the sum of the numbers.
+3. Implement a function that displays a rectangle of asterisks "*". Its parameters will be integers that describe the length and width of such a rectangle.
+4. Write a function that implements a linear search for an element in a list of integers. If such an item is in the list, return its index, if not, return the number "-1".
+5. Write a function that returns the number of words in a line of text.
+</details>
+
 ---
 
 ## **Recursion**
