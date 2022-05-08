@@ -672,7 +672,7 @@ The simplest algorithms for a joke:
 2. Write a function that takes two integers n and k and returns a number containing k of the first digits of the number n.
 </details>
 
-### **Practice 10**
+### **Lab 9**
 
 **📅 Date:** 09.05.2022
 
