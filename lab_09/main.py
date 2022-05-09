@@ -58,8 +58,8 @@ print(line_search(array, num))
 
 # Task 5
 
-def numWords(words):
+def num_words(words):
     num = len(words.split())
     return "In your text " + str(num) + " words"
 words = input("Write the text: ")
-print(numWords(words))
+print(num_words(words))
