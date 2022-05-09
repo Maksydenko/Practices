@@ -11,7 +11,7 @@ print(addRightDigit())
 
 # Task 2
 
-def numberPrefix(n=random.randint(1000, 100000), k=random.randint(1, 4)):
+def number_prefix(n=random.randint(1000, 100000), k=random.randint(1, 4)):
     if isinstance(n, int) and isinstance(k, int):
         return str(n)[:k]
-print(numberPrefix())
+print(number_prefix())
