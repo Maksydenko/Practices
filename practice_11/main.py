@@ -1,5 +1,5 @@
 import numpy as np
-import random
+from random import randint
 
 
 # Task 1
@@ -40,6 +40,6 @@ def max_index(array, rand):
             if array[i, j] > max:
                 max, x, y = array[i, j], i, j
     return x, y
-rand = random.randint(1, 5)
+rand = randint(1, 5)
 array = np.random.randint(-50, 50, (rand, rand))
 print(array, "\nIndex maximum number:", max_index(array, rand))
