@@ -4,7 +4,7 @@ import random
 
 # Task 1
 
-def maxNum(array):
+def max_num(array):
     i = 0
     flag = True
     while flag:
@@ -16,34 +16,34 @@ def maxNum(array):
         i += 1
     return array[-1]
 array = np.random.randint(-50, 50, 25)
-print("The maximum number is", maxNum(array))
+print("The maximum number is", max_num(array))
 
 
 # Task 2
 
-def myConc(num1, num2, line):
+def my_conc(num1, num2, line):
     sum = num1 + num2
     return line + str(sum)
 num1 = int(input("Write the first number: "))
 num2 = int(input("Write the second number: "))
 line = input("Write the text: ")
-print(myConc(num1, num2, line))
+print(my_conc(num1, num2, line))
 
 
 # Task 3
 
-def myRect(length, width):
+def my_rect(length, width):
     for i in range(width):
         print("*" * length)
-    return myRect
+    return my_rect
 length = int(input("The length of the rectangle: "))
 width = int(input("The width of the rectangle: "))
-print(myRect(length, width))
+print(my_rect(length, width))
 
 
 # Task 4
 
-def lineSearch(array, num):
+def line_search(array, num):
     i = 0
     while i < len(array) and array[i] != num:
         i += 1
@@ -53,7 +53,7 @@ def lineSearch(array, num):
         return "Element", num, "found at position", i
 array = np.random.randint(0, 50, 25)
 num = int(input("Write the number which you want to find: "))
-print(lineSearch(array, num))
+print(line_search(array, num))
 
 
 # Task 5
