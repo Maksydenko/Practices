@@ -1,5 +1,5 @@
 import numpy as np
-import random
+from random import randint
 
 
 # Task 1
@@ -60,6 +60,6 @@ print(line_search(array, num))
 
 def numWords(words):
     num = len(words.split())
-    return num
+    return "In your text " + str(num) + " words"
 words = input("Write the text: ")
 print(numWords(words))
