@@ -4,7 +4,7 @@ import random
 
 # Task 1
 
-def sortArray(array):
+def sort_array(array):
     i = 0
     flag = True
     while flag:
@@ -17,13 +17,13 @@ def sortArray(array):
     return array
 number = int(input("Write the number of array elements: "))
 array = np.random.randint(-10, 10, number)
-print(sortArray(array), "\nMaximum is", sortArray(array)[-1], "in",
-      len(array) - 1, "\nMinimum is", sortArray(array)[0])
+print(sort_array(array), "\nMaximum is", sort_array(array)[-1], "in",
+      len(array) - 1, "\nMinimum is", sort_array(array)[0])
 
 
 # Task 2
 
-def sortHalf(array):
+def sort_half(array):
     full_len = len(array)
     half_len = len(array) // 2
     for i in range(half_len - 1):
@@ -40,12 +40,12 @@ def sortHalf(array):
         array[i], array[min] = array[min], array[i]
     return array
 array = np.random.randint(-10, 10, 10)
-print(sortHalf(array))
+print(sort_half(array))
 
 
 # Task 3
 
-def sortZeros(array):
+def sort_zeros(array):
     for i in range(1, len(array)):
         j = i - 1
         key = array[i]
@@ -63,4 +63,4 @@ def sortZeros(array):
                 i -= 1
     return array[zeros:]
 array = np.random.randint(-2, 5, 20)
-print(sortZeros(array))
+print(sort_zeros(array))
