@@ -624,7 +624,7 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-The task is to develop and implement algorithms for research for data, prepared for the additional function of modeling vipadkovy numbers and texts, prepared independently.
+The task is to study and implement search algorithms for data prepared using the function of modeling random numbers and texts prepared independently.
 
 For the skin algorithm, it is necessary to prepare tests that confirm the application of the program. For all the search algorithms, the listings of the search programs and the listings of the results are given (position numbers in the output array, depending on how the element is sorted or the fragment of the search; the number of ordering according to the skin algorithm of the search).
 
