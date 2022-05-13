@@ -655,6 +655,35 @@ The simplest algorithms for a joke:
 3. Given an array of 20 integers on the segment [-2; 5]. Arrange the array by deleting the zeros with an offset to the left.
 </details>
 
+### **Lab 9**
+
+**📅 Date:** 13.05.2022
+
+**📁 Project:** [link](lab_09_01/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+Implement a program in which each of the sorting algorithms is designed as a separate function. Illustrate the mechanism of using different types of parameters. Provide a calculation of the number of required comparisons, the number of exchanges and the operating time of each function, forming the functions of evaluating the effectiveness of sorting methods. Prepare a single test source for all algorithms:
+
+* generated a sequence of pseudo-random numbers sufficient to estimate the speed of the sorting algorithm (about 100,000 integers);
+* the original sequence of pseudo-random numbers, sorted by any method in ascending order;
+* the original sequence of pseudo-random numbers, sorted by any method in descending order;
+* provide software selection of input data from the keyboard up to 30 output numbers.
+
+For the program, list the results of the work:
+
+* output array (display on the screen for the case of input from the keyboard);
+* sorted array (for the case of input from the keyboard, one instance of the sorted array to display);
+* indicators of the function of evaluating the effectiveness of sorting methods (display).
+
+Sort the array of integers A in ascending / descending order. The simplest sorting algorithms:
+
+* bubble sort;
+* selection sort;
+* insertion sort.
+</details>
+
 ---
 
 ## **Functions in Python**
