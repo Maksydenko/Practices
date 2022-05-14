@@ -7,7 +7,7 @@ from random import randint
 def my_fac(fac):
     if fac < 0:
         return "You wrote the number less than zero"
-    if fac == 0:
+    elif fac == 0:
         return 1
     else:
         return fac * my_fac(fac - 1)
@@ -18,13 +18,13 @@ print(my_fac(fac))
 # Task 2
 
 def digital_root(num):
-    if 0 < num < 10:
-        return num
-    summ = 0
     if num >= 10:
+        summ = 0
         for i in str(num):
             summ += int(i)
         return digital_root(summ)
+    elif 0 < num < 10:
+        return num
     else:
         return "You wrote the number less than zero"
 num = int(input("White the number: "))
