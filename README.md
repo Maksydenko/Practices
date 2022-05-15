@@ -744,6 +744,8 @@ Realize Python's program in the list below. For each of the tasks, the algorithm
 
 **📁 Project:** [link](lab_10/main.py)
 
+<details>
+<summary><b>📋 Specification:</b></summary>
 Implement the Python program tasks from the list below. For each of the tasks the algorithm is implemented using recursion and iteration. Argue in writing the appropriateness of the choice in each case of recursion or iteration (use as criteria - the time of development and execution of programs, the amount of memory occupied, the readability of the program).
 
 1. Create a function for entering a sequence of numbers from the keyboard and display it in reverse order (the final character of the sequence - a dot)
