@@ -21,9 +21,7 @@ print("The maximum number is", max_num(array))
 
 # Task 2
 
-def my_conc(num1, num2, line):
-    sum = num1 + num2
-    return line + str(sum)
+my_conc = lambda num1, num2, line: line + str(num1 + num2)
 num1 = int(input("Write the first number: "))
 num2 = int(input("Write the second number: "))
 line = input("Write the text: ")
@@ -58,8 +56,6 @@ print(line_search(array, num))
 
 # Task 5
 
-def num_words(words):
-    num = len(words.split())
-    return "In your text " + str(num) + " words"
+num_words = lambda words: len(words.split())
 words = input("Write the text: ")
-print(num_words(words))
+print("In your text", num_words(words), "words")
