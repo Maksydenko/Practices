@@ -737,3 +737,18 @@ Realize Python's program in the list below. For each of the tasks, the algorithm
 
 3. Form a function to calculate the index of the maximum array of n * n, where 1 <= n <= 5.
 </details>
+
+### **Lab 10**
+
+**📅 Date:** 15.05.2022
+
+**📁 Project:** [link](lab_10/main.py)
+
+Implement the Python program tasks from the list below. For each of the tasks the algorithm is implemented using recursion and iteration. Argue in writing the appropriateness of the choice in each case of recursion or iteration (use as criteria - the time of development and execution of programs, the amount of memory occupied, the readability of the program).
+
+1. Create a function for entering a sequence of numbers from the keyboard and display it in reverse order (the final character of the sequence - a dot)
+
+2. Form a function that will determine whether a given natural number is prime. A prime number is one that is greater than 1 and has no divisors other than 1 and itself).
+
+3. Form a function for converting a natural number from a decimal number system to a hexadecimal one.
+</details>
