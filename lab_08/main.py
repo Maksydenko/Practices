@@ -51,7 +51,6 @@ j = 0
 while j < len(pattern) and i < (len(text) - len(pattern)):
     j = 0
     i += 1
-
     while j < len(pattern) and pattern[j] == text[i + j]:
         j += 1
 
