@@ -567,6 +567,25 @@ The tasks in point b) must be performed using the data types dict and list.
 
 ---
 
+## **Exam (autumn semester)**
+
+**📅 Date:** 06.12.2021
+
+**📁 Project:** [link](exam_autumn/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write a program in Python that calculates the value of the function y = (5x2-3x) / sin (x) for x values ranging from 1 to 30, in steps of 0.5.
+2. Write a program in Python that outputs the number of odd numbers in a given list into a standard output stream.
+3. Write a program in Python, which in a non-empty sequence of non-empty words from Latin letters determines the number of words that begin and end with the same letter. Display the result.
+4. Write a program in Python that outputs all prime numbers from 1 to 1000 to the standard output stream.
+
+    Note: A prime number is a number that is divisible without remainder only by one or by itself.
+</details>
+
+---
+
 ## **Multidimensional arrays in Python**
 
 ### **Practice 8**
