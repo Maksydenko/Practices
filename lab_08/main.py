@@ -1,6 +1,5 @@
 import numpy as np
 import random
-from random import randint
 
 # Task 1
 
@@ -35,7 +34,6 @@ while left <= right:
     else:
         i = mid
         break
-
 
 if i == -1:
     print("Element not found")
