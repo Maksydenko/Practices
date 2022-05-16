@@ -5,6 +5,7 @@ def is_int(answer):
     except ValueError:
         return False
 
+
 # Task 1
 
 def original_lyrics(song_decoder):
@@ -19,6 +20,7 @@ def original_lyrics(song_decoder):
 song_decoder = input("Write the lyrics for the remix in one word \
 (no more than 200 characters): ").upper()
 print(original_lyrics(song_decoder))
+
 
 # Task 2
 
@@ -46,6 +48,7 @@ def morse_number(number):
 number = int(input("Write a number from 0 to 9: "))
 print(morse_number(number))
 
+
 # Task 3
 
 def prime_number(number, divider):
@@ -59,6 +62,7 @@ def prime_number(number, divider):
 number = input("Write the number: ")
 number, divider = int(number), int(number) - 1
 print(prime_number(number, divider))
+
 
 # Task 4
 
@@ -93,6 +97,7 @@ then write "."): ')
         continue
 print(even_odd(iq_test))
 
+
 # Task 5
 
 def sorted_string(string):
@@ -108,9 +113,12 @@ def sorted_string(string):
                     for symbol2 in string[word + 1]:
                         if is_int(symbol2):
                             if symbol1 > symbol2:
-                                string[word], string[word + 1] = string[word + 1], string[word]
+                                string[word], string[word + 1] = \
+                                    string[word + 1], string[word]
                                 flag = True
         step += 1
-    return string
+    for word in string:
+        print(word, end="")
+    return " - sorted string"
 string = input("Write words containing numbers from 1 to 9: ").split()
 print(sorted_string(string))
