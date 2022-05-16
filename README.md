@@ -649,9 +649,12 @@ The simplest algorithms for a joke:
 <summary><b>📋 Specification:</b></summary>
 
 1. Given an array of integers. The number of items to invite from the keyboard. Find:
+
    * the maximum element of the array and its number;
    * the minimum element of the array.
+
 2. Given an array of 10 elements. Sort the first 4 in ascending order, the last 4 in descending order.
+
 3. Given an array of 20 integers on the segment [-2; 5]. Arrange the array by deleting the zeros with an offset to the left.
 </details>
 
@@ -729,6 +732,7 @@ Sort the array of integers A in ascending / descending order. The simplest sorti
 
 <details>
 <summary><b>📋 Specification:</b></summary>
+
 Realize Python's program in the list below. For each of the tasks, the algorithm is implemented using recursion and iteration. To argue the feasibility of choosing in each case of recursion or iteration (to use as criteria - the time of development and execution of programs, the amount of memory occupied, the readability of the program).
 
 1. To form a function that will compute the factorial specified by the natural number user n.
@@ -746,6 +750,7 @@ Realize Python's program in the list below. For each of the tasks, the algorithm
 
 <details>
 <summary><b>📋 Specification:</b></summary>
+
 Implement the Python program tasks from the list below. For each of the tasks the algorithm is implemented using recursion and iteration. Argue in writing the appropriateness of the choice in each case of recursion or iteration (use as criteria - the time of development and execution of programs, the amount of memory occupied, the readability of the program).
 
 1. Create a function for entering a sequence of numbers from the keyboard and display it in reverse order (the final character of the sequence - a dot)
@@ -754,3 +759,70 @@ Implement the Python program tasks from the list below. For each of the tasks th
 
 3. Form a function for converting a natural number from a decimal number system to a hexadecimal one.
 </details>
+
+---
+
+## Exam (spring semester)
+
+**📅 Date:** 16.05.2022
+
+**📁 Project:** [link](exam_spring/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Polycarpus works as a DJ in the best Berland nightclub, and he often uses dubstep music in his performance. Recently, he has decided to take a couple of old songs and make dubstep remixes from them.
+
+    Let's assume that a song consists of some number of words (that don't contain WUB). To make the dubstep remix of this song, Polycarpus inserts a certain number of words "WUB" before the first word of the song (the number may be zero), after the last word (the number may be zero), and between words (at least one between any pair of neighbouring words), and then the boy glues together all the words, including "WUB", in one string and plays the song at the club.
+
+    For example, a song with words "I AM X" can transform into a dubstep remix as "WUBWUBIWUBAMWUBWUBX" and cannot transform into "WUBWUBIAMWUBX".
+    
+    Recently, Jonny has heard Polycarpus's new dubstep track, but since he isn't into modern music, he decided to find out what was the initial song that Polycarpus remixed. Help Jonny restore the original song.
+
+    Input:
+    
+    The input consists of a single non-empty string, consisting only of uppercase English letters, the string's length doesn't exceed 200 characters
+
+    Output: 
+    
+    Return the words of the initial song that Polycarpus used to make a dubsteb remix. Separate the words with a space.
+
+    Examples:
+
+        song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
+        WE ARE THE CHAMPIONS MY FRIEND
+
+
+2. Numbers in the Morse code have the following pattern:
+
+* all digits consist of 5 characters;
+* the number of dots at the beginning indicates the numbers from 1 to 5, the remaining characters are dashes;
+* starting with the number 6, each dot is replaced by a dash and vise versa.
+Write the function morse_number() for encryption of a number in a three-digit format in Morse code.
+
+
+3. Write a function using recursion to check if a number n is prime (you have to check whether n is divisible by any number below n).
+
+
+4. Bob is preparing to pass IQ test. The most frequent task in this test is to find out which one of the given numbers differs from the others. Bob observed that one number usually differs from the others in evenness. Help Bob — to check his answers, he needs a program that among the given numbers finds one that is different in evenness, and return a position of this number.
+
+    ! Keep in mind that your task is to help Bob solve a real IQ test, which means indexes of the elements start from 1 (not 0)
+
+    Examples:
+
+        iq_test("2 4 7 8 10")
+        3 # Third number is odd, while the rest of the numbers are even
+
+        iq_test("1 2 1 1")
+        2 # Second number is even, while the rest of the numbers are odd
+
+
+5. Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+
+    Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+
+    Examples:
+
+        "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
+        "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
