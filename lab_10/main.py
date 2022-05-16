@@ -1,18 +1,16 @@
 # Task 1
 
-
-def reverse_sequence(custom_list):
-    if not custom_list:
-        return []
-    return [custom_list.pop()] + reverse_sequence(custom_list)
-
-
 def is_int(answer):
     try:
         int(answer)
         return True
     except ValueError:
         return False
+
+def reverse_sequence(custom_list):
+    if not custom_list:
+        return []
+    return [custom_list.pop()] + reverse_sequence(custom_list)
 
 custom_list = []
 
