@@ -1,9 +1,11 @@
 # Task 1
 
+
 def reverse_sequence(custom_list):
     if not custom_list:
         return []
     return [custom_list.pop()] + reverse_sequence(custom_list)
+
 
 def is_int(answer):
     try:
@@ -15,7 +17,8 @@ def is_int(answer):
 custom_list = []
 
 while True:
-    answer = input('Write a number (if you no longer want to write numbers, then write "."): ')
+    answer = input('Write a number (if you no longer want to write numbers, \
+then write "."): ')
     if is_int(answer):
         custom_list.append(int(answer))
     elif str(answer) == ".":
@@ -23,6 +26,7 @@ while True:
     else:
         continue
 print(reverse_sequence(custom_list))
+
 
 # Task 2
 
