@@ -656,7 +656,7 @@ The simplest algorithms for a joke:
 
 ---
 
-## **Data sorting - I**
+## **Data sorting**
 
 ### **Practice 10**
 
@@ -781,7 +781,7 @@ Implement the Python program tasks from the list below. For each of the tasks th
 
 ---
 
-## Exam (spring semester)
+## **Exam (spring semester)**
 
 **📅 Date:** 16.05.2022
 
@@ -845,3 +845,22 @@ If the input string is empty, return an empty string. The words in the input Str
 
         "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
         "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
+</details>
+
+---
+
+## **Python files**
+
+### **Practice 12**
+
+**📅 Date:** 21.05.2022
+
+**📁 Project:** [link](practice_12/main.py)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+The text file contains entries for phone numbers. Each line contains information: phone number, name, address.
+
+Write a program that sorts the entries in the file in ascending order of the phone number.
+</details>
