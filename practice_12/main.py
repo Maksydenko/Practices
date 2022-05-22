@@ -20,7 +20,6 @@ try:
     with open("my_text.txt", "w+") as my_file:
         my_file.writelines(sort_lines)
         my_file.seek(0)
-        for line in my_file.readlines():
-            print(line)
+        print(my_file.read())
 except FileNotFoundError as fnfe:
     print(fnfe)
