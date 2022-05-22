@@ -525,17 +525,17 @@ When performing tasks, use standard methods for working with strings. A sequence
 
 <ol type="a">
     <li>
-    The Fibonacci sequence is formed as follows: the first and second members of the sequence are 1, each subsequent is equal to the sum of the previous two (1, 1, 2, 3, 5, 8, 13, ...). Given a natural number n (n >= 3):
+        The Fibonacci sequence is formed as follows: the first and second members of the sequence are 1, each subsequent is equal to the sum of the previous two (1, 1, 2, 3, 5, 8, 13, ...). Given a natural number n (n >= 3):
         <ul>
             <li>find the k-th member of the Fibonacci sequence;</li>
             <li>get ​​the first n members of the Fibonacci sequence.</li>
         </ul>
     </li>
     <li>
-    Program. This sequence contains from 2 to 20 words, each of which from 2 to 10 Latin letters; between adjacent words - at least one space, after the last word - a period. Display all words other than the last word, pre-arranging the words of the text in alphabetical order.
+        Program. This sequence contains from 2 to 20 words, each of which from 2 to 10 Latin letters; between adjacent words - at least one space, after the last word - a period. Display all words other than the last word, pre-arranging the words of the text in alphabetical order.
     </li>
     <li>
-    Two words are given. Display those letters of words that are only in one of them (including those that are repeated). For example, if the given words are processor and information, then the answer should be: r o.
+        Two words are given. Display those letters of words that are only in one of them (including those that are repeated). For example, if the given words are processor and information, then the answer should be: r o.
     </li>
 </ol>
 </details>
@@ -855,7 +855,7 @@ If the input string is empty, return an empty string. The words in the input Str
 
 **📅 Date:** 21.05.2022
 
-**📁 Project:** [link](practice_12/main.py)
+**📁 Project:** [link](practice_12)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -863,4 +863,25 @@ If the input string is empty, return an empty string. The words in the input Str
 The text file contains entries for phone numbers. Each line contains information: phone number, name, address.
 
 Write a program that sorts the entries in the file in ascending order of the phone number.
+</details>
+
+### **Lab 11**
+
+**📅 Date:** 22.05.2022
+
+**📁 Project:** [link](lab_11)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+Write programs under given conditions. Display the results of the programs. Output data for tasks is generated programmatically.
+
+<ol type="a">
+    <li>
+        Given binary files f and g, the components of which are integers. Get in the file h new components formed by subtracting the two components of the files f and g, which are in the appropriate positions.
+    </li>
+    <li>
+        Given a text file f, the elements of which are symbols. Write in the file g those components of the file f that are numbers, and in the file h - letters.
+    </li>
+</ol>
 </details>
