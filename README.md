@@ -869,7 +869,7 @@ Write a program that sorts the entries in the file in ascending order of the pho
 
 **📅 Date:** 22.05.2022
 
-**📁 Project:** [link](lab_11)
+**📁 Project:** [link](lab_11/)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
