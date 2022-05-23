@@ -29,22 +29,24 @@ def morse_number(number):
         return "Your number is less than 0 or greater than 9"
     morse_code = []
     max_morse = 5
+    symbol_dot = "•"
+    symbol_dash = "—"
     if 0 <= number <= 5:
         for dot in range(number):
-            morse_code.append("•")
+            morse_code.append(symbol_dot)
         if len(morse_code) < max_morse:
             for dash in range(max_morse - len(morse_code)):
-                morse_code.append("—")
+                morse_code.append(symbol_dash)
         for symbol in morse_code:
             print(symbol, end="")
     if 6 <= number <= 9:
         for dash in range(number - max_morse):
-            morse_code.append("—")
+            morse_code.append(symbol_dash)
         for dot in range(max_morse - len(morse_code)):
-            morse_code.append("•")
+            morse_code.append(symbol_dot)
         for symbol in morse_code:
             print(symbol, end="")
-    return " — Morse code of your number"
+    return " is Morse code of your number"
 number = int(input("Write a number from 0 to 9: "))
 print(morse_number(number))
 
