@@ -9,9 +9,10 @@ print(f"{a=}, {b=}")
 
 # Task 2
 
-print(f"Average: {(a + b) / 2}")
-
-print(f"Geometric mean: {math.sqrt(a * b)}")
+average = (a + b) / 2
+print("Average:", average)
+geometric_mean = math.sqrt(a * b)
+print("Geometric mean:", geometric_mean)
 
 # Task 3
 
@@ -29,12 +30,12 @@ print(y)
 second = int(input("Write seconds: "))
 hour = second // 3600
 minute = (second - hour * 3600) // 60
-print(f"Hours: {hour}; minutes: {minute}")
+print("Hours:", hour, "; minutes:", minute)
 
 # Task 5
 
 corner = (hour + minute / 60 + second / 3600) % 12 * 30
-print(f"Corner: {corner}")
+print("Corner:", corner)
 
 # Task 6
 
