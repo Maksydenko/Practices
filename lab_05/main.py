@@ -1,6 +1,6 @@
 # Task a
 
-fibonacci_1, fibonacci_2 = 1, 1
+fibonacci_1 = fibonacci_2 = 1
 k = int(input("Write the number of a number from Fibonacci numbers: "))
 
 while k > 1:
@@ -8,7 +8,7 @@ while k > 1:
     k -= 1
 print(fibonacci_1)
 
-fibonacci_1, fibonacci_2 = 1, 1
+fibonacci_1 = fibonacci_2 = 1
 n = int(input("Write how many first Fibonacci numbers you want to find: "))
 
 while n > 0:
