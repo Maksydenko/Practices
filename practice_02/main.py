@@ -44,8 +44,8 @@ else:
 if x == y and x != z or x == z and x != y or y == z and y != x:
     print("Two variables store the same value, but the third one is different")
 else:
-    print('"Two variables store the same value, but the third one is different" \
-- this statement is incorrect')
+    print('"Two variables store the same value, but the third one \
+is different" - this statement is incorrect')
 
 # Task 2
 
@@ -54,11 +54,10 @@ y1 = int(input("Write the value y1: "))
 x2 = int(input("Write the value x2: "))
 y2 = int(input("Write the value y2: "))
 
-print(f"The distance between these points: \
-{math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)}")
-
-print("The slope of the line from the first point to the second:", 
-(y2 - y1) / (x2 - x1))
+point_distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+print("The distance between these points:", point_distance)
+point_slope = (y2 - y1) / (x2 - x1)
+print("The slope of the line from the first point to the second:", point_slope)
 
 if x1 and x2 == 0:
     print("Both points lie on the same line Oy from the origin")
