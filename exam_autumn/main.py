@@ -4,7 +4,8 @@ import math
 
 for x in range(10, 300, 5):
     x / 10
-    print((5 * x ** 2 - 3 * x) / math.sin(x))
+    y = (5 * x ** 2 - 3 * x) / math.sin(x)
+    print(y)
 
 # Task 2
 
