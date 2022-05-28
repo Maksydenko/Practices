@@ -12,7 +12,7 @@ The aim of the course is to form the student's knowledge of the whole process of
 
 **📅 Date:** 17.09.2021
 
-**📁 Project:** [link](practice_00/main.py)
+**📁 Project:** [link](practice-00/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -32,7 +32,7 @@ The aim of the course is to form the student's knowledge of the whole process of
 
 **📅 Date:** 04.10.2021
 
-**📁 Project:** [link](practice_01/main.py)
+**📁 Project:** [link](practice-01/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -67,7 +67,7 @@ The aim of the course is to form the student's knowledge of the whole process of
 
 **📅 Date:** 11.10.2021
 
-**📁 Project:** [link](lab_03/main.py)
+**📁 Project:** [link](lab-03/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -177,7 +177,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 25.10.2021
 
-**📁 Project:** [link](practice_02/main.py)
+**📁 Project:** [link](practice-02/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -217,7 +217,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 08.11.2021
 
-**📁 Project:** [link](lab_04/main.py)
+**📁 Project:** [link](lab-04/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -253,7 +253,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 08.11.2021
 
-**📁 Project:** [link](practice_03/main.py)
+**📁 Project:** [link](practice-03/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -274,7 +274,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 15.11.2021
 
-**📁 Project:** [link](practice_04/main.py)
+**📁 Project:** [link](practice-04/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -308,7 +308,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 22.11.2021
 
-**📁 Project:** [link](practice_05/main.py)
+**📁 Project:** [link](practice-05/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -349,7 +349,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 22.11.2021
 
-**📁 Project:** [link](practice_06/main.py)
+**📁 Project:** [link](practice-06/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -390,7 +390,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 28.11.2021
 
-**📁 Project:** [link](practice_07/main.py)
+**📁 Project:** [link](practice-07/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -516,7 +516,7 @@ print("f-string:", f"{x:5.3f}")
 
 **📅 Date:** 30.11.2021
 
-**📁 Project:** [link](lab_05/main.py)
+**📁 Project:** [link](lab-05/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -548,7 +548,7 @@ When performing tasks, use standard methods for working with strings. A sequence
 
 **📅 Date:** 02.12.2021
 
-**📁 Project:** [link](lab_06/main.py)
+**📁 Project:** [link](lab-06/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -571,7 +571,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 06.12.2021
 
-**📁 Project:** [link](exam_autumn/main.py)
+**📁 Project:** [link](exam-autumn/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -592,7 +592,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 24.01.2022
 
-**📁 Project:** [link](practice_08/main.py)
+**📁 Project:** [link](practice-08/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -608,7 +608,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 14.02.2022
 
-**📁 Project:** [link](lab_07/main.py)
+**📁 Project:** [link](lab-07/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -627,7 +627,7 @@ The tasks in point b) must be performed using the data types dict and list.
 
 **📅 Date:** 07.02.2022
 
-**📁 Project:** [link](practice_09/main.py)
+**📁 Project:** [link](practice-09/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -638,7 +638,7 @@ Fill the 10x20 matrix with random numbers from 0 to 15. Display the matrix itsel
 
 **📅 Date:** 22.02.2022
 
-**📁 Project:** [link](lab_08/main.py)
+**📁 Project:** [link](lab-08/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -662,7 +662,7 @@ The simplest algorithms for a joke:
 
 **📅 Date:** 10.04.2022
 
-**📁 Project:** [link](practice_10_01/main.py)
+**📁 Project:** [link](practice-10-01/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -681,7 +681,7 @@ The simplest algorithms for a joke:
 
 **📅 Date:** 13.05.2022
 
-**📁 Project:** [link](lab_09_01/main.py)
+**📁 Project:** [link](lab-09-01/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -714,7 +714,7 @@ Sort the array of integers A in ascending / descending order. The simplest sorti
 
 **📅 Date:** 21.02.2022
 
-**📁 Project:** [link](practice_10/main.py)
+**📁 Project:** [link](practice-10/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -727,7 +727,7 @@ Sort the array of integers A in ascending / descending order. The simplest sorti
 
 **📅 Date:** 09.05.2022
 
-**📁 Project:** [link](lab_09/main.py)
+**📁 Project:** [link](lab-09/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -747,7 +747,7 @@ Sort the array of integers A in ascending / descending order. The simplest sorti
 
 **📅 Date:** 17.04.2022
 
-**📁 Project:** [link](practice_11/main.py)
+**📁 Project:** [link](practice-11/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -765,7 +765,7 @@ Realize Python's program in the list below. For each of the tasks, the algorithm
 
 **📅 Date:** 15.05.2022
 
-**📁 Project:** [link](lab_10/main.py)
+**📁 Project:** [link](lab-10/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -781,11 +781,50 @@ Implement the Python program tasks from the list below. For each of the tasks th
 
 ---
 
+## **Python files**
+
+### **Practice 12**
+
+**📅 Date:** 21.05.2022
+
+**📁 Project:** [link](practice-12)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+The text file contains entries for phone numbers. Each line contains information: phone number, name, address.
+
+Write a program that sorts the entries in the file in ascending order of the phone number.
+</details>
+
+### **Lab 11**
+
+**📅 Date:** 22.05.2022
+
+**📁 Project:** [link](lab-11)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+Write programs under given conditions. Display the results of the programs. Output data for tasks is generated programmatically.
+
+<ol type="a">
+    <li>
+        Given binary files f and g, the components of which are integers. Get in the file h new components formed by subtracting the two components of the files f and g, which are in the appropriate positions.
+    </li>
+    <li>
+        Given a text file f, the elements of which are symbols. Write in the file g those components of the file f that are numbers, and in the file h - letters.
+    </li>
+</ol>
+</details>
+
+---
+
 ## **Exam (spring semester)**
 
 **📅 Date:** 16.05.2022
 
-**📁 Project:** [link](exam_spring/main.py)
+**📁 Project:** [link](exam-spring/main.py)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -845,43 +884,4 @@ If the input string is empty, return an empty string. The words in the input Str
 
         "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
         "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
-</details>
-
----
-
-## **Python files**
-
-### **Practice 12**
-
-**📅 Date:** 21.05.2022
-
-**📁 Project:** [link](practice_12)
-
-<details>
-<summary><b>📋 Specification:</b></summary>
-
-The text file contains entries for phone numbers. Each line contains information: phone number, name, address.
-
-Write a program that sorts the entries in the file in ascending order of the phone number.
-</details>
-
-### **Lab 11**
-
-**📅 Date:** 22.05.2022
-
-**📁 Project:** [link](lab_11)
-
-<details>
-<summary><b>📋 Specification:</b></summary>
-
-Write programs under given conditions. Display the results of the programs. Output data for tasks is generated programmatically.
-
-<ol type="a">
-    <li>
-        Given binary files f and g, the components of which are integers. Get in the file h new components formed by subtracting the two components of the files f and g, which are in the appropriate positions.
-    </li>
-    <li>
-        Given a text file f, the elements of which are symbols. Write in the file g those components of the file f that are numbers, and in the file h - letters.
-    </li>
-</ol>
 </details>
