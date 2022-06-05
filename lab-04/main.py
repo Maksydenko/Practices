@@ -72,14 +72,18 @@ else:
 
 # Task 8
 
-a = float(input("Write the fractional number a:"))
-b = float(input("Write the fractional number b:"))
-c = float(input("Write the fractional number c:"))
+a = float(input("Write the fractional number a: "))
+b = float(input("Write the fractional number b: "))
+c = float(input("Write the fractional number c: "))
 discriminant = b ** 2 - 4 * a * c
-x1 = (-b + math.sqrt(discriminant)) / (2 * a)
-x2 = (-b * math.sqrt(discriminant)) / (2 * a)
 
-if x1 // 1 != x1 or x2 // 1 != x2:
-    print("Equation ax² + bx + c has fractional roots")
+if discriminant < 0:
+    print("Discriminant negative")
 else:
-    print("Equation ax² + bx + c hasn't fractional roots")
+    sqrt_discr = math.sqrt(discriminant)
+    x1 = (-b + sqrt_discr) / (2 * a)
+    x2 = (-b - sqrt_discr) / (2 * a)
+    if x1 // 1 != x1 or x2 // 1 != x2:
+        print("Equation ax² + bx + c has fractional roots")
+    else:
+        print("Equation ax² + bx + c hasn't fractional roots")
