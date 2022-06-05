@@ -34,11 +34,14 @@ print(digital_root(num))
 # Task 3
 
 def max_index(array, rand):
-    max, x, y = array[0, 0], 0, 0
+    max = array[0, 0]
+    x = y = 0
     for i in range(rand):
         for j in range(rand):
             if array[i, j] > max:
-                max, x, y = array[i, j], i, j
+                max = array[i, j]
+                x = i
+                y = j
     return x, y
 rand = randint(1, 5)
 array = np.random.randint(-50, 50, (rand, rand))
