@@ -11,12 +11,11 @@ def is_int(answer):
 def original_lyrics(song_decoder):
     if len(song_decoder) > 200 or len(song_decoder.split()) > 1:
         print("You wrote more than 200 characters or more than 1 word")
-    list_lyrics = song_decoder.split("WUB")
-    for word in list_lyrics:
+    for word in song_decoder.split("WUB"):
         if word == "":
             continue
         print(word, end=" ")
-    return " — original lyrics"
+    return "— original lyrics"
 song_decoder = input("Write the lyrics for the remix in one word \
 (no more than 200 characters): ").upper()
 print(original_lyrics(song_decoder))
@@ -71,8 +70,8 @@ print(prime_number(number, divider))
 def even_odd(iq_test):
     if len(iq_test) <= 1:
         return "We can't solve this task"
-    even_numbers, odd_numbers = 0, 0
-    even_index, odd_index = 0, 0
+    even_numbers = odd_numbers = 0
+    even_index = odd_index = 0
     for index in range(len(iq_test)):
         if iq_test[index] % 2:
             even_numbers += 1
