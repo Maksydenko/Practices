@@ -651,7 +651,7 @@ The simplest algorithms for a joke:
 
 1. Line search.
 2. Binary search.
-3. Direct poshuk pіryadka.
+3. Direct search for a substring.
 </details>
 
 ---
