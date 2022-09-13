@@ -4,7 +4,7 @@ import random
 # Task 1
 
 nums = np.random.randint(-10, 10, 10)
-value = randint(-10, 10)
+value = random.randint(-10, 10)
 i = 0
 
 while i < len(nums) and nums[i] != value:
