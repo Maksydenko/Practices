@@ -48,15 +48,18 @@ text = "Hello, world!"
 pattern = "world"
 i = -1
 j = 0
+num = 0
 
 while j < len(pattern) and i < (len(text) - len(pattern)):
+    num += 1
     j = 0
     i += 1
     while j < len(pattern) and pattern[j] == text[i + j]:
+        num += 1
         j += 1
 
 if j == len(pattern):
     print("Substring found at position", i)
 else:
     print("Substring not found")
-print("Number of matches according to the skin algorithm:", i + j)
+print("Number of matches according to the skin algorithm:", num)
