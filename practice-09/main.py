@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-i = j = five = 0
+five = 0
 matrix = np.random.randint(0, 15, (10, 20))
 
 for i in range(10):
