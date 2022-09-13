@@ -19,12 +19,14 @@ print("Number of matches according to the skin algorithm:", i)
 # Task 2
 
 nums = sorted(np.random.randint(-10, 10, 10))
-value = randint(-10, 10)
+value = random.randint(-10, 10)
 i = -1
 left = 0
 right = len(nums) - 1
+num = 0
 
 while left <= right:
+    num += 1
     mid = (left + right) // 2
     if nums[mid] > value:
         right = mid - 1
@@ -38,7 +40,7 @@ if i == -1:
     print("Element not found")
 else:
     print("Element", value, "found at position", i)
-print("Number of matches according to the skin algorithm:", i)
+print("Number of matches according to the skin algorithm:", num)
 
 # Task 3
 
