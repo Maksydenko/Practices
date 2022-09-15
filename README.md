@@ -760,7 +760,7 @@ Realize Python's program in the list below. For each of the tasks, the algorithm
 
 2. To form a function to calculate the digital root of a natural number. The digital root is obtained as follows: It is necessary to compile all figures of a given number, then make up all figures of the amount found and repeat the process until the amount will be equal to the unambiguous number, which will be a digital root of a given number.
 
-3. Form a function to calculate the index of the maximum array of n * n, where 1 <= n <= 5.
+3. Create a function to calculate the index of the maximum element of the n * n array, where 1 <= n <= 5.
 </details>
 
 ### **Lab 10**
