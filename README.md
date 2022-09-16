@@ -1,6 +1,6 @@
 # **Algorithmization and programming**
 
-<img src="images/python.gif&ct=s" height="150" alt="Python">
+<img src="img/python.gif&ct=s" height="150" alt="Python">
 
 ### **Short annotation to the course:**
 
