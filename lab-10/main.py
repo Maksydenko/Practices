@@ -7,6 +7,7 @@ def is_int(answer):
     except ValueError:
         return False
 
+
 def reverse_sequence(custom_list):
     if not custom_list:
         return []
@@ -24,7 +25,6 @@ then write "."): ')
     else:
         continue
 print(reverse_sequence(custom_list))
-
 
 # Task 2
 
