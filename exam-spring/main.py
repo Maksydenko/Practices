@@ -108,7 +108,6 @@ then write "."): ')
         continue
 print(even_odd(iq_test))
 
-
 # Task 5
 
 def sorted_string(string):

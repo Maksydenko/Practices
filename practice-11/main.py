@@ -3,7 +3,6 @@ from random import randint
 
 
 # Task 1
-
 def my_fac(fac):
     if fac < 0:
         return "You wrote the number less than zero"
@@ -16,7 +15,6 @@ print(my_fac(fac))
 
 
 # Task 2
-
 def digital_root(num):
     if num >= 10:
         summ = 0
@@ -33,7 +31,6 @@ print(digital_root(num))
 
 
 # Task 3
-
 def max_index(array, rand):
     max = array[0, 0]
     x = y = 0
