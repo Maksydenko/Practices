@@ -3,7 +3,6 @@ from random import randint
 
 
 # Task 1
-
 def sort_array(array):
     i = 0
     flag = True
@@ -24,7 +23,6 @@ print(sort_array(array), "\nMaximum is", sort_array(array)[-1], "in",
 
 
 # Task 2
-
 def sort_half(array):
     full_len = len(array)
     half_len = len(array) // 2
@@ -49,7 +47,6 @@ print(sort_half(array))
 
 
 # Task 3
-
 def sort_zeros(array):
     for i in range(1, len(array)):
         j = i - 1
