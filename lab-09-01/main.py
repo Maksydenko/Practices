@@ -4,7 +4,6 @@ from time import perf_counter
 
 
 # Bubble sort ascending
-
 def bubble_ascending(array=np.random.randint(-1000, 1000, 10000)):
     # The ability to select input data
     # from the keyboard up to 30 output numbers
@@ -23,7 +22,6 @@ Answer (maximum 30): "))
             array = np.append(array, number)
 
     # Bubble sort in ascending order
-
     start_time = perf_counter()
     i = 0
     flag = True
@@ -44,7 +42,6 @@ Answer (maximum 30): "))
 print(bubble_ascending())
 
 # Bubble sort descending
-
 def bubble_descending(array=np.random.randint(-1000, 1000, 10000)):
     # The ability to select input data
     # from the keyboard up to 30 output numbers
@@ -84,7 +81,6 @@ Answer (maximum 30): "))
 print(bubble_descending())
 
 # Selection sort ascending
-
 def selection_ascending(array=np.random.randint(-1000, 1000, 10000)):
     # The ability to select input data
     # from the keyboard up to 30 output numbers
@@ -121,7 +117,6 @@ Answer (maximum 30): "))
 print(selection_ascending())
 
 # Selection sort descending
-
 def selection_descending(array=np.random.randint(-1000, 1000, 10000)):
     # The ability to select input data
     # from the keyboard up to 30 output numbers
@@ -157,7 +152,6 @@ Answer (maximum 30): "))
 print(selection_descending())
 
 # Insertion sort ascending
-
 def insertion_ascending(array=np.random.randint(-1000, 1000, 10000)):
     # The ability to select input data
     # from the keyboard up to 30 output numbers
@@ -195,7 +189,6 @@ Answer (maximum 30): "))
 print(insertion_ascending())
 
 # Insertion sort descending
-
 def insertion_descending(array=np.random.randint(-1000, 1000, 10000)):
     # The ability to select input data
     # from the keyboard up to 30 output numbers
