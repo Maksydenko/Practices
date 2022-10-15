@@ -8,6 +8,7 @@ for i in range(10):
     for j in range(20):
         if matrix[i][j] == 5:
             five += 1
+
     if five >= 3:
         print(i)
     five = 0

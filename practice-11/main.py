@@ -20,6 +20,7 @@ print(my_fac(fac))
 def digital_root(num):
     if num >= 10:
         summ = 0
+
         for i in str(num):
             summ += int(i)
         return digital_root(summ)
@@ -36,6 +37,7 @@ print(digital_root(num))
 def max_index(array, rand):
     max = array[0, 0]
     x = y = 0
+
     for i in range(rand):
         for j in range(rand):
             if array[i, j] > max:

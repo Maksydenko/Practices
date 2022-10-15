@@ -7,8 +7,10 @@ from random import randint
 def max_num(array):
     i = 0
     flag = True
+
     while flag:
         flag = False
+
         for j in range(len(array) - i - 1):
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
@@ -43,8 +45,10 @@ print(my_rect(length, width))
 
 def line_search(array, num):
     i = 0
+
     while i < len(array) and array[i] != num:
         i += 1
+
     if i == len(array):
         return -1
     else:

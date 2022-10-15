@@ -28,6 +28,7 @@ num = 0
 while left <= right:
     num += 1
     mid = (left + right) // 2
+
     if nums[mid] > value:
         right = mid - 1
     elif nums[mid] < value:
@@ -54,6 +55,7 @@ while j < len(pattern) and i < (len(text) - len(pattern)):
     num += 1
     j = 0
     i += 1
+
     while j < len(pattern) and pattern[j] == text[i + j]:
         num += 1
         j += 1

@@ -38,6 +38,7 @@ array = np.eye(4)
 for i in range(4):
     for j in range(4):
         array[i][j] = int(input("Write the array element: "))
+
         if array[i][j] < 0:
             array[i][j] = 0
 print(array)

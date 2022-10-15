@@ -16,12 +16,12 @@ if x % 20:
 else:
     print("x is a multiple of 20")
 
-if x and y >= 0:
+if x >= 0 and y >= 0:
     print("x and y are both positive")
 else:
     print("x and y aren't both positive")
 
-if x and y >= 0 or x and y < 0:
+if x >= 0 and y >= 0 or x < 0 and y < 0:
     print("x and y have the same sign")
 else:
     print("x and y haven't the same sign")
@@ -59,11 +59,11 @@ print("The distance between these points:", point_distance)
 point_slope = (y2 - y1) / (x2 - x1)
 print("The slope of the line from the first point to the second:", point_slope)
 
-if x1 and x2 == 0:
+if x1 == 0 and x2 == 0:
     print("Both points lie on the same line Oy from the origin")
-elif y1 and y2 == 0:
+elif y1 == 0 == 0 and y2 == 0:
     print("Both points lie on the same line Oy from the origin")
-elif x1 and x2 and y1 and y2 == 0:
+elif x1 == 0 and x2 == 0 and y1 == 0 and y2 == 0:
     print("Both points lie on the point (0; 0)")
 else:
     print('"Both points lie on the same line from the origin" \
@@ -71,24 +71,24 @@ else:
 
 print("The first point is above the second:", y1 > y2)
 
-if x1 and y1 > 0:
+if x1 > 0 and y1 > 0:
     print("The first point lies in the first quadrant")
 elif x1 < 0 < y1:
     print("The first point lies in the second quadrant")
-elif x1 and y1 < 0:
+elif x1 < 0 and y1 < 0:
     print("The first point lies in the third quadrant")
 elif x1 > 0 > y1:
     print("The first point lies in the fourth quadrant")
 else:
     print("The first point lies on the coordinate axes")
 
-if x1 and x2 and y1 and y2 > 0:
+if x1 > 0 and x2 > 0 and y1 > 0 and y2 > 0:
     print("The two points lie in the first quadrant")
-elif x1 and x2 < 0 < y1 and y2:
+elif x1 < 0 and x2 < 0 < y1 and 0 < y2:
     print("The two points lie in the second quadrant")
-elif x1 and x2 and y1 and y2 < 0:
+elif x1 < 0 and x2 < 0 and y1 < 0 and y2 < 0:
     print("The two points lie in the third quadrant")
-elif x1 and x2 > 0 > y1 and y2:
+elif x1 > 0 and x2 > 0 > y1 and 0 > y2:
     print("The two points lie in the fourth quadrant")
 else:
     print("The two points don't lie in the same quadrant")

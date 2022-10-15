@@ -31,6 +31,7 @@ sur = []
 
 for i in range(5):
     np.array(sur.append(input("Write the surname: ").title()))
+
 letter = input("Write the letter: ").upper()
 
 for i in sur:

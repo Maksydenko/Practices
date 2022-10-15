@@ -1,6 +1,7 @@
 # Task a
 
-fibonacci_1 = fibonacci_2 = 1
+fibonacci_1 = 1
+fibonacci_2 = 1
 k = int(input("Write the number of a number from Fibonacci numbers: "))
 
 while k > 1:
@@ -8,7 +9,8 @@ while k > 1:
     k -= 1
 print(fibonacci_1)
 
-fibonacci_1 = fibonacci_2 = 1
+fibonacci_1 = 1
+fibonacci_2 = 1
 n = int(input("Write how many first Fibonacci numbers you want to find: "))
 
 while n > 0:
@@ -27,6 +29,7 @@ words = []
 for i in sentence:
     if 2 > len(i) > 10:
         print("There are words in your sentence that have less than 2 or more than 10")
+
     if i == last_word:
         continue
     words.append(i)

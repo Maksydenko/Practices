@@ -18,6 +18,7 @@ custom_list = []
 while True:
     answer = input('Write a number (if you no longer want to write numbers, \
 then write "."): ')
+
     if is_int(answer):
         custom_list.append(int(answer))
     elif str(answer) == ".":

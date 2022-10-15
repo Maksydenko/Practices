@@ -11,6 +11,7 @@ def is_int(answer):
 def original_lyrics(song_decoder):
     if len(song_decoder) > 200 or len(song_decoder.split()) > 1:
         print("You wrote more than 200 characters or more than 1 word")
+
     for word in song_decoder.split("WUB"):
         if word == "":
             continue
@@ -30,19 +31,25 @@ def morse_number(number):
     max_morse = 5
     symbol_dot = "•"
     symbol_dash = "—"
+
     if 0 <= number <= 5:
         for dot in range(number):
             morse_code.append(symbol_dot)
+
         if len(morse_code) < max_morse:
             for dash in range(max_morse - len(morse_code)):
                 morse_code.append(symbol_dash)
+
         for symbol in morse_code:
             print(symbol, end="")
+
     if 6 <= number <= 9:
         for dash in range(number - max_morse):
             morse_code.append(symbol_dash)
+
         for dot in range(max_morse - len(morse_code)):
             morse_code.append(symbol_dot)
+
         for symbol in morse_code:
             print(symbol, end="")
     return " is Morse code of your number"
@@ -72,6 +79,7 @@ def even_odd(iq_test):
         return "We can't solve this task"
     even_numbers = odd_numbers = 0
     even_index = odd_index = 0
+
     for index in range(len(iq_test)):
         if iq_test[index] % 2:
             even_numbers += 1
@@ -79,8 +87,10 @@ def even_odd(iq_test):
         else:
             odd_numbers += 1
             odd_index = index + 1
+
     if even_numbers != 1 and odd_numbers != 1:
         return "We can't solve this task"
+
     if even_numbers == 1:
         return even_index
     return odd_index
@@ -106,6 +116,7 @@ def sorted_string(string):
         return "You wrote more than 9 words"
     step = 0
     flag = True
+
     while flag:
         flag = False
         for word in range(len(string) - step - 1):
@@ -118,6 +129,7 @@ def sorted_string(string):
                                     string[word + 1], string[word]
                                 flag = True
         step += 1
+
     for word in string:
         print(word, end="")
     return " - sorted string"

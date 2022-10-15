@@ -17,6 +17,7 @@ sum = 0
 while True:
     x = float(input("Write the number: "))
     sum += x
+
     if x == 0:
         break
 print("Sum:", sum)

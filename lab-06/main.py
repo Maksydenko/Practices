@@ -10,8 +10,10 @@ for i in n:
     if i[0] == " ":
         print("The first character must not be a space")
         break
+
     if i == " ":
         break
+
     if i in string.punctuation:
         continue
     m.append(i)
@@ -25,6 +27,7 @@ new_data = dict()
 while number > 0:
     data = input("Write student data (structure fields: surname, group, \
 physics, algorithmization and programming, higher mathematics): ").split(", ")
+
     if (int(data[2]) + int(data[3]) + int(data[4])) / 3 > 75:
         new_data[data[0]] = data[1]
     number -= 1

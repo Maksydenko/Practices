@@ -83,6 +83,7 @@ else:
     sqrt_discr = math.sqrt(discriminant)
     x1 = (-b + sqrt_discr) / (2 * a)
     x2 = (-b - sqrt_discr) / (2 * a)
+
     if x1 // 1 != x1 or x2 // 1 != x2:
         print("Equation ax² + bx + c has fractional roots")
     else:
