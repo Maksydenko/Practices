@@ -20,7 +20,8 @@ print(array.transpose())
 
 # Task 3
 
-array_1, array_2 = np.eye(3), np.eye(3)
+array_1 = np.eye(3)
+array_2 = np.eye(3)
 
 for i in range(3):
     for j in range(3):
