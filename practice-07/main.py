@@ -67,10 +67,7 @@ print(sum)
 
 directions = input("Write directions separated by commas \
 (NORTH, SOUTH, WEST, EAST): ").upper().split(", ")
-north = 0
-south = 0
-west = 0
-east = 0
+north = south = west = east = 0
 new_directions = []
 
 for i in directions:
