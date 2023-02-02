@@ -236,7 +236,7 @@ print("f-string:", f"{x:5.3f}")
 
 3. Write a program that rearranges the digits of the three-digit number that is specified user in reverse order and displays a new number on the screen.
 
-4. Write a program that determines the total number of hours of the day (variable hour) and the total number of minutes of the day (variable minute) that have passed before the current seconds of the day (variable second). For example, if second = 11111 (second = 3 _ 3600 + 5 _ 60 + 11), then hour = 3 and minute = 5.
+4. Write a program that determines the total number of hours of the day (variable hour) and the total number of minutes of the day (variable minute) that have passed before the current seconds of the day (variable second). For example, if second = 11111 (second = 3 \* 3600 + 5 \* 60 + 11), then hour = 3 and minute = 5.
 
 5. Write a program that determines the value of the angle in degrees (variable corner) between clockwise at the beginning of the day and its state in hour hours, minutes minutes and second seconds (0 ≤ hour ≤ 11; 0 ≤ minute; second ≤ 59).
 
@@ -419,9 +419,7 @@ print("f-string:", f"{x:5.3f}")
 
 3.  Implement a script which works the same as str.split.
 
-    Note:
-
-    Usage of str.split method is prohibited.
+    Note: Usage of str.split method is prohibited.
 
 4.  Implement a script which returns the longest word in the given string.
 
@@ -507,21 +505,21 @@ print("f-string:", f"{x:5.3f}")
 
     Examples:
 
-            All elements valid:
-            The array {"dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"}
-            Should return {"dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"}
+        All elements valid:
+        The array {"dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"}
+        Should return {"dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"}
 
-            An invalid element at index 2:
-            The array {"dog", "goose", "tiger", "cat", "elephant", "rhino", "orc"}
-            Should return ("dog", "goose") since goose ends in "e" and tiger starts with "t"
+        An invalid element at index 2:
+        The array {"dog", "goose", "tiger", "cat", "elephant", "rhino", "orc"}
+        Should return ("dog", "goose") since goose ends in "e" and tiger starts with "t"
 
-            An invalid empty string at index 2:
-            The array {"ab", "bc", "", "cd"}
-            Should return ("ab", "bc")
+        An invalid empty string at index 2:
+        The array {"ab", "bc", "", "cd"}
+        Should return ("ab", "bc")
 
-            All invalid empty string at index 0:
-            The array {"", "bc", "", "cd"}
-            Should return An Empty List
+        All invalid empty string at index 0:
+        The array {"", "bc", "", "cd"}
+        Should return An Empty List
 
 </details>
 
@@ -893,11 +891,13 @@ Write programs under given conditions. Display the results of the programs. Outp
 
     Examples:
 
-        iq_test("2 4 7 8 10")
-        3 # Third number is odd, while the rest of the numbers are even
+    ```python
+    iq_test("2 4 7 8 10")
+    3 # Third number is odd, while the rest of the numbers are even
 
-        iq_test("1 2 1 1")
-        2 # Second number is even, while the rest of the numbers are odd
+    iq_test("1 2 1 1")
+    2 # Second number is even, while the rest of the numbers are odd
+    ```
 
 5.  Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
 
