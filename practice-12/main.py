@@ -12,18 +12,20 @@ def sort_numbers(lines):
         i += 1
     return lines
 
-try:
-    with open("my-text.txt") as my_file:
-        sort_lines = []
 
-        for line in sort_numbers(my_file.readlines()):
-            if line[-1] != "\n":
-                line = line + "\n"
-            sort_lines.append(line)
+def sortFile(file_path):
+    try:
+        with open(file_path) as file:
+            sort_lines = []
 
-    with open("my-text.txt", "w+") as my_file:
-        my_file.writelines(sort_lines)
-        my_file.seek(0)
-        print(my_file.read())
-except FileNotFoundError as fnfe:
-    print(fnfe)
+            for line in sort_numbers(file.readlines()):
+                if line[-1] != "\n":
+                    line = line + "\n"
+                sort_lines.append(line)
+
+        with open(file_path, "w+") as file:
+            file.writelines(sort_lines)
+            file.seek(0)
+            print(file.read())
+    except FileNotFoundError as fnfe:
+        print(fnfe)
